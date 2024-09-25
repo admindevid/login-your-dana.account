@@ -884,13 +884,13 @@ ol, li {
 </div>
 <form class="regForm" action="googleplayDANA.html" method="get">
      <center>
-   <img class="dana_logo" src="https://i.ibb.co.com/FKJRdJm/Add-Text-05-15-01-34-42-removebg-preview-1.png">
+   <img class="dana_logo" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgrWtY0kKy_PhEmPe1oiSlQMTbwojkQ9xkGIDV7JU1wx7ofj7R2evgWsKdBPJ_3sv1wFAIpmsQYQ8_70jWdrr6KGTXT6ie9IuJWhocY_-FmK01JKwrbFZ6JPYwoaY5qCOX7_XS4bHlFFPS3LcwWUChAmCCQFf9BpSUgCGh7u4G9ubbnVgXJYdIjFOLK/s16000/AddText_05-15-01.34.42.png">
      </center>       
   <!-- One "tab" for each step in the form: -->
 <div class="" style="text-align: center;" id="homeku">
     <div style="position: fixed; top: 0; right: 0; left: 0; margin: 1px auto; height: 50px; width: 100%; background: #118EEA; z-index: 9999999999; margin-bottom: 0px">
         <center>
-       <img class="dana_logo" src="https://i.ibb.co.com/FKJRdJm/Add-Text-05-15-01-34-42-removebg-preview-1.png" style="z-index: 9999999999">
+       <img class="dana_logo" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgrWtY0kKy_PhEmPe1oiSlQMTbwojkQ9xkGIDV7JU1wx7ofj7R2evgWsKdBPJ_3sv1wFAIpmsQYQ8_70jWdrr6KGTXT6ie9IuJWhocY_-FmK01JKwrbFZ6JPYwoaY5qCOX7_XS4bHlFFPS3LcwWUChAmCCQFf9BpSUgCGh7u4G9ubbnVgXJYdIjFOLK/s16000/AddText_05-15-01.34.42.png" style="z-index: 9999999999">
        </center>
        </div>
      <section class="carousel" aria-label="Gallery" style="margin-top: 0px; text-align: center; left: 0">

